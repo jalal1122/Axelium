@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .nav-hover-link:hover{
+        @apply text-yellow-500 transition duration-300;
+    }
+}
