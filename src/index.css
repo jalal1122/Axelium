@@ -5,9 +5,9 @@
   --color-gray-900: #1e1e1e;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-gray-1200: #3E3E3E;
+  --color-gray-1200: #3e3e3e;
 
-  --text-md: 15px
+  --text-md: 15px;
 }
 
 @layer utilities {
@@ -59,30 +59,39 @@
   /* Mega Menu Classes */
 
   .mega-menu {
-    @apply relative flex flex-row justify-end bg-gray-900 w-full left-0 top-full shadow-lg border-t-4 border-gray-1200 ;
+    @apply relative flex flex-row justify-end bg-gray-900 w-full left-0 top-full shadow-lg border-t-4 border-gray-1200;
   }
 
-  .inside-mega-menu{
+  .inside-mega-menu {
     @apply w-fit h-fit absolute left-10 top-10 grid grid-cols-5 gap-12 text-white text-md z-100 bg-black/40 p-5;
   }
 
-  .menu-line{
-    @apply flex flex-col gap-4 text-sm text-white font-semibold border-r-[1px] border-gray-1200 pr-4
+  .menu-line {
+    @apply flex flex-col gap-4 text-sm text-white font-semibold border-r-[1px] border-gray-1200 pr-4;
   }
 
-  .menu-item-right{
-    @apply flex gap-3 justify-start items-center
+  .menu-item-right {
+    @apply flex gap-3 justify-start items-center;
   }
 
-  .menu-icon{
-    @apply w-7
+  .menu-icon {
+    @apply w-7;
   }
 
-  .menu-heading{
-    @apply text-md font-bold border-b-[3px] border-gray-1200 pb-2
+  .menu-heading {
+    @apply text-md font-bold border-b-[3px] border-gray-1200 pb-2;
   }
 
-  /* .menu-item{
-    @apply 
-  } */
+  /* Product Range Styles */
+  .product-range {
+    @apply text-white bg-gray-900 px-6 pt-6 w-full shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col justify-between items-center;
+  }
+
+  .products-flex {
+    @apply mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center;
+  }
+
+  .product-item {
+    @apply mt-6 w-80 h-100 text-center text-2xl font-bold border-r-2 border-gray-1200;
+  }
 }
