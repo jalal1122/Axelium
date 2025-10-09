@@ -1,11 +1,18 @@
 import { NavLink } from "react-router";
+import { FaHome } from "react-icons/fa";
+import { FaBoxOpen } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import MegaMenu from "./Navbar/MegaMenu";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
+
   return (
-    <header>
-      <nav className="bg-black p-4 flex gap-5 justify-around items-center">
+    <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
+      <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex justify-center items-center gap-4 p-2">
           <img src="./logo.svg" alt="Logo" className="w-15" />
           <img
             src="./logo_text.svg"
@@ -14,33 +21,35 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Nav Divider */}
-        {/* <div className='w-[1px] h-10 bg-white/40'></div> */}
-
         {/* Nav Links Side */}
         <div className="flex gap-8 text-white text-lg font-medium">
-          <NavLink
-            to="/"
-            className="nav-hover-link"
-          >
-            Home
+          <NavLink to="/" className="nav-hover-link nav-link">
+            <FaHome className="inline-block mr-4" size={25} />
+            <span>Home</span>
           </NavLink>
           <NavLink
             to="/products"
-            className="nav-hover-link"
+            className="nav-hover-link nav-link"
+            onMouseOver={() => setIsMegaMenuOpen(true)}
+            onMouseOut={() => setIsMegaMenuOpen(false)}
           >
-
-            
+            <FaBoxOpen className="inline-block mr-4" size={25} />
             Products
           </NavLink>
-          <NavLink
-            to="/about"
-            className="nav-hover-link"
-          >
-            About
+          <NavLink to="/about" className="nav-hover-link nav-link">
+            <IoMail className="inline-block mr-4" size={25} />
+            Contact
           </NavLink>
         </div>
+
+        {/* Request a Quote */}
+        <div>
+          <button className="button-special">Request a Quote</button>
+        </div>
       </nav>
+
+      {/* Mega Menu */}
+      <MegaMenu />
     </header>
   );
 };

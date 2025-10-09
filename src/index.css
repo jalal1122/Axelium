@@ -1,7 +1,70 @@
 @import "tailwindcss";
 
-@layer utilities{
-    .nav-hover-link:hover{
-        @apply text-yellow-500 transition duration-300;
-    }
+@theme {
+  --color-yellow: #fed141;
+  --color-gray-900: #1e1e1e;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-1200: #3E3E3E;
+}
+
+@layer utilities {
+  /* Nav Link Styles */
+
+  .nav-link {
+    @apply text-white no-underline font-semibold text-lg mx-2 flex justify-center items-center p-4 border-gray-1200;
+  }
+
+  .nav-hover-link:hover {
+    @apply text-gray-300 transition duration-300 bg-gray-900 border-r-[1px] border-l-[1px];
+  }
+  .nav-hover-link:hover .nav-link {
+    @apply border-gray-300;
+  }
+
+  /* Button Special Classes */
+
+  .button-special {
+    @apply bg-gray-900 px-7 py-2 text-white  relative overflow-hidden;
+  }
+
+  .button-special:hover {
+    @apply cursor-pointer;
+  }
+
+  .button-special:active {
+    @apply scale-95 transition-all duration-100;
+  }
+
+  .button-special::before {
+    content: "";
+    @apply w-[1px] h-[80%] bg-yellow absolute left-2 top-0 rounded-full;
+  }
+
+  .button-special:hover::before {
+    @apply h-[40%] transition-all duration-300;
+  }
+
+  .button-special::after {
+    content: "";
+    @apply w-[1px] h-[80%] bg-yellow absolute right-2 bottom-0 rounded-full;
+  }
+
+  .button-special:hover::after {
+    @apply h-[40%] transition-all duration-300;
+  }
+
+  /* Mega Menu Classes */
+
+  .mega-menu {
+    @apply relative flex flex-row justify-end bg-gray-900 w-full left-0 top-full shadow-lg border-t-4 border-gray-1200 ;
+  }
+
+  .inside-mega-menu{
+    @apply w-fit h-fit absolute left-20 top-10 grid grid-cols-4 gap-6;
+  }
+
+  .menu-line{
+    @apply flex flex-col gap-4 text-sm text-white font-semibold
+  }
 }
