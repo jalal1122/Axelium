@@ -6,6 +6,8 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-gray-1200: #3E3E3E;
+
+  --text-md: 15px
 }
 
 @layer utilities {
@@ -61,10 +63,26 @@
   }
 
   .inside-mega-menu{
-    @apply w-fit h-fit absolute left-20 top-10 grid grid-cols-4 gap-6;
+    @apply w-fit h-fit absolute left-20 top-10 grid grid-cols-4 gap-12 text-white text-md;
   }
 
   .menu-line{
-    @apply flex flex-col gap-4 text-sm text-white font-semibold
+    @apply flex flex-col gap-4 text-sm text-white font-semibold border-r-[1px] border-gray-1200 pr-4
   }
+
+  .menu-item-right{
+    @apply flex gap-3 justify-start items-center
+  }
+
+  .menu-icon{
+    @apply w-7
+  }
+
+  .menu-heading{
+    @apply text-md font-bold border-b-[3px] border-gray-1200 pb-2
+  }
+
+  /* .menu-item{
+    @apply 
+  } */
 }

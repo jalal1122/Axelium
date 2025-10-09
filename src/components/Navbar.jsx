@@ -13,9 +13,9 @@ const Navbar = () => {
       <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
         <div className="flex justify-center items-center gap-4 p-2">
-          <img src="./logo.svg" alt="Logo" className="w-15" />
+          <img src="/logo.svg" alt="Logo" className="w-15" />
           <img
-            src="./logo_text.svg"
+            src="/logo_text.svg"
             alt="Logo Text"
             className="relative w-30 top-1"
           />
@@ -28,7 +28,7 @@ const Navbar = () => {
             <span>Home</span>
           </NavLink>
           <NavLink
-            to="/products"
+            to="/product"
             className="nav-hover-link nav-link"
             onMouseOver={() => setIsMegaMenuOpen(true)}
             onMouseOut={() => setIsMegaMenuOpen(false)}
@@ -36,7 +36,7 @@ const Navbar = () => {
             <FaBoxOpen className="inline-block mr-4" size={25} />
             Products
           </NavLink>
-          <NavLink to="/about" className="nav-hover-link nav-link">
+          <NavLink to="/contact" className="nav-hover-link nav-link">
             <IoMail className="inline-block mr-4" size={25} />
             Contact
           </NavLink>
