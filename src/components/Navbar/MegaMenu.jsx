@@ -1,5 +1,8 @@
 import { useState } from "react";
 import windowsImg from "../../assets/MegaMunuImages/windows.png";
+import doorsImg from "../../assets/MegaMunuImages/doors.png"
+import terracesystem from "../../assets/MegaMunuImages/terracesystem.png"
+import shuttersImg from "../../assets/MegaMunuImages/shutters.png"
 import windowsSvg from "../../assets/MegaMunuSvg/windows.svg";
 import doorsSvg from "../../assets/MegaMunuSvg/doors.svg";
 import terraceSystemsSvg from "../../assets/MegaMunuSvg/terracesystem.svg";
@@ -35,40 +38,40 @@ const MegaMenu = () => {
             }}
           >
             <img src={windowsSvg} alt="" className="menu-icon" />{" "}
-            <span>WINDOWS</span>
+            <span>Fenêtres</span>
           </li>
           <li
             className="menu-item-right"
             onMouseOver={() => {
-            //   setMenuBgImage(null);
+              setMenuBgImage(doorsImg);
               setActiveCategory("doors");
               console.log(activeCategory);
             }}
           >
             <img src={doorsSvg} alt="" className="menu-icon" />{" "}
-            <span>DOORS</span>
+            <span>Porte d'entrée</span>
           </li>
           <li
             className="menu-item-right"
             onMouseOver={() => {
-            //   setMenuBgImage(null);
+              setMenuBgImage(terracesystem);
               setActiveCategory("terrace systems");
               console.log(activeCategory);
             }}
           >
             <img src={terraceSystemsSvg} alt="" className="menu-icon" />{" "}
-            <span>TERRACE SYSTEMS</span>
+            <span>Systèmes coulissants</span>
           </li>
           <li
             className="menu-item-right"
             onMouseOver={() => {
-            //   setMenuBgImage(null);
+              setMenuBgImage(shuttersImg);
               setActiveCategory("shutters");
               console.log(activeCategory);
             }}
           >
             <img src={shuttersSvg} alt="" className="menu-icon" />{" "}
-            <span>SHUTTERS</span>
+            <span>Volets roulants</span>
           </li>
         </ul>
 

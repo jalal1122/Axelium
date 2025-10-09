@@ -4,119 +4,26 @@ const ShuttersMenu = () => {
   return (
     <>
       <ul className="flex flex-col gap-4">
-        <li className="menu-heading">PVC Windows</li>
+        <li className="menu-heading">Rénovation</li>
 
         <li>
           <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
+            <span>Volets roulants en aluminium</span>
           </Link>
         </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
+
       </ul>
       <ul className="flex flex-col gap-4">
-        <li className="menu-heading">PVC Windows</li>
+        <li className="menu-heading">MONOBLOC</li>
 
         <li>
           <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
+            <span>Volets roulants en PVC</span>
           </Link>
         </li>
         <li>
           <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-      </ul>
-      <ul className="flex flex-col gap-4">
-        <li className="menu-heading">PVC Windows</li>
-
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="" className="menu-item">
-            <span>IGLO EDGE</span>
+            <span>Volets roulants avec caisson en polystyrène</span>
           </Link>
         </li>
       </ul>

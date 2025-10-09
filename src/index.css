@@ -63,7 +63,7 @@
   }
 
   .inside-mega-menu{
-    @apply w-fit h-fit absolute left-20 top-10 grid grid-cols-4 gap-12 text-white text-md;
+    @apply w-fit h-fit absolute left-10 top-10 grid grid-cols-5 gap-12 text-white text-md z-100 bg-black/40 p-5;
   }
 
   .menu-line{

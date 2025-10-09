@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex gap-8 text-white text-lg font-medium">
           <NavLink to="/" className="nav-hover-link nav-link">
             <FaHome className="inline-block mr-4" size={25} />
-            <span>Home</span>
+            <span>Accueil</span>
           </NavLink>
           <NavLink
             to="/product"
@@ -34,7 +34,7 @@ const Navbar = () => {
             onMouseOut={() => setIsMegaMenuOpen(false)}
           >
             <FaBoxOpen className="inline-block mr-4" size={25} />
-            Products
+            Produits
           </NavLink>
           <NavLink to="/contact" className="nav-hover-link nav-link">
             <IoMail className="inline-block mr-4" size={25} />
@@ -44,12 +44,17 @@ const Navbar = () => {
 
         {/* Request a Quote */}
         <div>
-          <button className="button-special">Request a Quote</button>
+          <button className="button-special">Demander un devis</button>
         </div>
       </nav>
 
       {/* Mega Menu */}
-      <MegaMenu />
+      <div
+        onMouseOver={() => setIsMegaMenuOpen(true)}
+        onMouseOut={() => setIsMegaMenuOpen(false)}
+      >
+        {isMegaMenuOpen && <MegaMenu />}
+      </div>
     </header>
   );
 };
