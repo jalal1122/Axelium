@@ -14,7 +14,7 @@
   /* Nav Link Styles */
 
   .nav-link {
-    @apply text-white no-underline font-semibold text-lg mx-2 flex justify-center items-center p-4 border-gray-1200;
+    @apply text-white no-underline font-semibold text-lg mx-2 flex justify-center items-center p-5 border-gray-1200;
   }
 
   .nav-hover-link:hover {
@@ -59,7 +59,7 @@
   /* Mega Menu Classes */
 
   .mega-menu {
-    @apply relative flex flex-row justify-end bg-gray-900 w-full left-0 top-full shadow-lg border-t-4 border-gray-1200;
+    @apply absolute z-100 flex flex-row justify-end bg-gray-900 w-full left-0 top-full shadow-lg border-t-4 border-gray-1200;
   }
 
   .inside-mega-menu {
