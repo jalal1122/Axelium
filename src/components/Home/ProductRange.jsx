@@ -5,7 +5,7 @@ import shuttersImg from "../../assets/ProductRange/shutters.png";
 
 const ProductRange = () => {
   return (
-    <div className="product-range">
+    <section className="product-range">
       <h2 className="text-3xl font-bold mb-4">Gamme de produits</h2>
       <p>
         Axelium - fabricant de fenêtres, portes, volets roulants et de
@@ -58,7 +58,7 @@ const ProductRange = () => {
           <h3 className="mt-6">Volets roulants</h3>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
