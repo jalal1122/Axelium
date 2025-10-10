@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { NavLink, useNavigate } from "react-router";
 import { FaHome, FaBars } from "react-icons/fa";
 import { FaBoxOpen } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -14,6 +14,7 @@ import shuttersSvg from "../assets/MegaMunuSvg/shutters.svg";
 import { Link } from "react-router";
 
 const Navbar = () => {
+    const navigate = useNavigate();
     
     const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
     
@@ -68,7 +69,7 @@ const Navbar = () => {
 
         {/* Request a Quote */}
         <div>
-          <button className="button-special text-sm md:text-md">Demander un devis</button>
+          <button onClick={() => navigate("/contact")} className="button-special text-sm md:text-md">Demander un devis</button>
         </div>
 
         {/* Burger Menu */}

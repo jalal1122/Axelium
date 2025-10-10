@@ -117,6 +117,19 @@
   }
 
   .product-item {
-    @apply mt-6 w-80 h-100 text-center text-2xl font-bold border-r-2 border-gray-1200;
+    @apply mt-6 w-80 h-100 text-center text-2xl font-bold border-r-2 border-gray-1200 hover:scale-102 hover:cursor-pointer transition-transform duration-300;
+  }
+
+  .product-details-menu {
+    @apply h-full absolute hidden bottom-0 left-0 bg-gray-900;
+  }
+
+  .special-gradient {
+    background: radial-gradient(
+      120% 90% at 55% 45%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(30, 30, 30, 0.7) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
   }
 }

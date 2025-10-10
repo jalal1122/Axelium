@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function About() {
   return (
     <section className="py-20 bg-gray-50" id="about">
@@ -17,18 +19,24 @@ export default function About() {
             About Axlium Menuiseries
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Axlium Menuiseries est une entreprise familiale basée à Dunkerque, dans le nord de la France, forte de plus de 10 ans d&rsquo;expérience dans le secteur du bâtiment. <br /> 
-
-            Héritiers d&rsquo;un savoir-faire artisanal, nous sommes spécialisés dans la rénovation intérieure et extérieure et avons élargi notre activité à la vente et à l&rsquo;installation de fenêtres, portes vitrées, portes de garage et autres produits de menuiserie sur mesure. <br />
-
-            Chaque projet est réalisé avec soin et précision par nos artisans qualifiés, garantissant qualité, fiabilité et satisfaction à nos clients.
+            Axlium Menuiseries est une entreprise familiale basée à Dunkerque,
+            dans le nord de la France, forte de plus de 10 ans
+            d&rsquo;expérience dans le secteur du bâtiment. <br />
+            Héritiers d&rsquo;un savoir-faire artisanal, nous sommes spécialisés
+            dans la rénovation intérieure et extérieure et avons élargi notre
+            activité à la vente et à l&rsquo;installation de fenêtres, portes
+            vitrées, portes de garage et autres produits de menuiserie sur
+            mesure. <br />
+            Chaque projet est réalisé avec soin et précision par nos artisans
+            qualifiés, garantissant qualité, fiabilité et satisfaction à nos
+            clients.
           </p>
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="button-special text-xl font-bold"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -3,8 +3,11 @@ import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import { useNavigate } from "react-router";
 
 export default function Hero() {
+  const navigate = useNavigate();
+
   const slides = [
     {
       image: "./hero1.jpg",
@@ -57,7 +60,7 @@ export default function Hero() {
                 >
                   {slide.subtitle}
                 </p>
-                <button className="button-special text-xl font-bold">Demander un devis</button>
+                <button onClick={() => navigate("/contact")} className="button-special text-xl font-bold">Demander un devis</button>
               </div>
             </div>
           </SwiperSlide>
