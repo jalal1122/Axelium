@@ -24,10 +24,32 @@
     @apply border-gray-300;
   }
 
+  /* Ham Burger Menu Styles */
+
+  .burger-menu {
+    @apply lg:hidden hover:cursor-pointer;
+  }
+
+  .mobile-menu-tabs {
+    @apply fixed top-0 right-0 h-[100vh] w-[100vw] sm:w-[60vw] md:w-[40vw] shadow-lg lg:hidden flex flex-col bg-gray-900 transform translate-x-full;
+  }
+
+  .mobile-menu-item-class {
+    @apply border-b-2 border-gray-1200 py-2 hover:border-gray-300 transition duration-300 hover:cursor-pointer;
+  }
+
+  .mobile-menu-heading {
+    @apply text-white font-bold text-xl border-b-4 border-gray-1200 pb-2 mb-4 mt-5 p-3;
+  }
+
+  .mobile-menu-item {
+    @apply text-white no-underline font-semibold text-lg mx-2 mb-2 flex justify-start items-center hover:text-yellow px-3 border-gray-1200;
+  }
+
   /* Button Special Classes */
 
   .button-special {
-    @apply bg-gray-900 px-7 py-2 text-white  relative overflow-hidden;
+    @apply bg-gray-900 px-7 py-2 text-white relative overflow-hidden;
   }
 
   .button-special:hover {
@@ -88,7 +110,7 @@
   }
 
   .products-flex {
-    @apply mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center;
+    @apply mt-10 flex flex-wrap justify-center items-center;
   }
 
   .product-item {
