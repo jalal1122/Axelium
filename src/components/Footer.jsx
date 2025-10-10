@@ -32,13 +32,13 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 text-white border-b-2 border-gray-1200 py-2">Contact</h3>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-blue-600" /> +33 6 12 34 56 78
+              <FaPhoneAlt className="text-yellow" /> +33 6 12 34 56 78
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-blue-600" /> contact@axlium.fr
+              <FaEnvelope className="text-yellow" /> contact@axlium.fr
             </li>
             <li className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-blue-600" /> Dunkirk, France
+              <FaMapMarkerAlt className="text-yellow" /> Dunkirk, France
             </li>
           </ul>
 
