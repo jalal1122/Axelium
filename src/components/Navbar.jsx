@@ -14,23 +14,24 @@ import shuttersSvg from "../assets/MegaMunuSvg/shutters.svg";
 import { Link } from "react-router";
 
 const Navbar = () => {
-  gsap.registerPlugin(useGSAP);
+    
+    const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
+    
+    const [isMobileMegaMenuOpen, setIsMobileMegaMenuOpen] = useState(false);
+    
+    const windowsMenuRef = useRef(null);
+    
+    const doorsMenuRef = useRef(null);
+    
+    const terraceSystemsMenuRef = useRef(null);
+    
+    const shuttersMenuRef = useRef(null);
+    
+    const mobileMegaMenu = useRef(null);
+    
+    const mobileMenuRef = useRef(null);
 
-  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
-
-  const [isMobileMegaMenuOpen, setIsMobileMegaMenuOpen] = useState(false);
-
-  const windowsMenuRef = useRef(null);
-
-  const doorsMenuRef = useRef(null);
-
-  const terraceSystemsMenuRef = useRef(null);
-
-  const shuttersMenuRef = useRef(null);
-
-  const mobileMegaMenu = useRef(null);
-
-  const mobileMenuRef = useRef(null);
+    gsap.registerPlugin(useGSAP);
 
   return (
     <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
@@ -97,7 +98,7 @@ const Navbar = () => {
             gsap.to(mobileMenuRef.current, {
               x: "100%",
               duration: 0.5,
-              overflowY: "hidden",
+              overflowY: "auto",
             });
           }}
         >
@@ -120,7 +121,7 @@ const Navbar = () => {
                 gsap.to(mobileMegaMenu.current, {
                   x: 0,
                   duration: 0.5,
-                  overflowY: "hidden",
+                  overflowY: "auto",
                 });
               }}
             >

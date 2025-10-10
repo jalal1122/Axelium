@@ -34,7 +34,6 @@ const MegaMenu = () => {
             onMouseOver={() => {
               setMenuBgImage(windowsImg);
               setActiveCategory("windows");
-              console.log(activeCategory);
             }}
           >
             <img src={windowsSvg} alt="" className="menu-icon" />{" "}
@@ -45,7 +44,6 @@ const MegaMenu = () => {
             onMouseOver={() => {
               setMenuBgImage(doorsImg);
               setActiveCategory("doors");
-              console.log(activeCategory);
             }}
           >
             <img src={doorsSvg} alt="" className="menu-icon" />{" "}
@@ -56,7 +54,6 @@ const MegaMenu = () => {
             onMouseOver={() => {
               setMenuBgImage(terracesystem);
               setActiveCategory("terrace systems");
-              console.log(activeCategory);
             }}
           >
             <img src={terraceSystemsSvg} alt="" className="menu-icon" />{" "}
@@ -67,7 +64,6 @@ const MegaMenu = () => {
             onMouseOver={() => {
               setMenuBgImage(shuttersImg);
               setActiveCategory("shutters");
-              console.log(activeCategory);
             }}
           >
             <img src={shuttersSvg} alt="" className="menu-icon" />{" "}
