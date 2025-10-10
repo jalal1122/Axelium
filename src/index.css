@@ -18,7 +18,7 @@
   }
 
   .nav-hover-link:hover {
-    @apply text-gray-300 transition duration-300 bg-gray-900 border-r-[1px] border-l-[1px];
+    @apply text-gray-300 transition cursor-pointer duration-300 bg-gray-900 border-r-[1px] border-l-[1px];
   }
   .nav-hover-link:hover .nav-link {
     @apply border-gray-300;
@@ -102,6 +102,10 @@
 
   .menu-heading {
     @apply text-md font-bold border-b-[3px] border-gray-1200 pb-2;
+  }
+
+  .menu-item {
+    @apply hover:text-yellow transition cursor-pointer;
   }
 
   /* Product Range Styles */

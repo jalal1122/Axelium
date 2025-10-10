@@ -14,6 +14,8 @@ import shuttersSvg from "../assets/MegaMunuSvg/shutters.svg";
 import { Link } from "react-router";
 
 const Navbar = () => {
+  gsap.registerPlugin(useGSAP);
+
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
 
   const [isMobileMegaMenuOpen, setIsMobileMegaMenuOpen] = useState(false);
@@ -28,12 +30,10 @@ const Navbar = () => {
 
   const mobileMegaMenu = useRef(null);
 
-  gsap.registerPlugin(useGSAP);
-
   const mobileMenuRef = useRef(null);
 
   return (
-    <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg overflow-hidden">
+    <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
       <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
         <div className="flex justify-center items-center gap-4 p-2">
@@ -53,8 +53,8 @@ const Navbar = () => {
           </NavLink>
           <div
             className="nav-hover-link nav-link"
-            onMouseOver={() => setIsMegaMenuOpen(true)}
-            onMouseOut={() => setIsMegaMenuOpen(false)}
+            onMouseEnter={() => setIsMegaMenuOpen(true)}
+            onMouseLeave={() => setIsMegaMenuOpen(false)}
           >
             <FaBoxOpen className="inline-block mr-4" size={25} />
             Produits
@@ -161,7 +161,7 @@ const Navbar = () => {
               gsap.to(windowsMenuRef.current, {
                 x: 0,
                 duration: 0.5,
-                overflowY: "hidden",
+                overflowY: "auto",
               });
             }}
           >
@@ -174,7 +174,7 @@ const Navbar = () => {
               gsap.to(doorsMenuRef.current, {
                 x: 0,
                 duration: 0.5,
-                overflowY: "hidden",
+                overflowY: "auto",
               });
             }}
           >
@@ -187,7 +187,7 @@ const Navbar = () => {
               gsap.to(terraceSystemsMenuRef.current, {
                 x: 0,
                 duration: 0.5,
-                overflowY: "hidden",
+                overflowY: "auto",
               });
             }}
           >
@@ -200,7 +200,7 @@ const Navbar = () => {
               gsap.to(shuttersMenuRef.current, {
                 x: 0,
                 duration: 0.5,
-                overflowY: "hidden",
+                overflowY: "auto",
               });
             }}
           >
