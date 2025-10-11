@@ -52,7 +52,7 @@ const WindowsMenu = () => {
           </Link>
         </li>
         <li>
-          <Link to="/product/windows/IDEAL" className="menu-item">
+          <Link to="/product/IDEAL" className="menu-item">
             <span>IDEAL</span>
           </Link>
         </li>

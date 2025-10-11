@@ -180,7 +180,7 @@ const ProductRange = () => {
                     </h3>
                     <div className="text-sm flex flex-col gap-4 items-end justify-center">
                       {detail?.items.map((item) => {
-                        return <Link to={`/product/windows/${item}`} className="mb-1 hover:text-yellow text-right">{item}</Link>;
+                        return <Link to={item === "IDEAL" ? `/product/IDEAL` : `/product/windows/${item}`} className="mb-1 hover:text-yellow text-right">{item}</Link>;
                       })}
                     </div>
                   </div>

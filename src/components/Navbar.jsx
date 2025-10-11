@@ -282,7 +282,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IDEAL" className="mobile-menu-item">
+            <Link to="/product/IDEAL" className="mobile-menu-item">
               <span>IDEAL</span>
             </Link>
           </li>
