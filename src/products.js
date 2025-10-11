@@ -332,8 +332,8 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/Windows/IGLO PREMIER/structure1.png",
-      "./assets/Products/Windows/IGLO PREMIER/structure2.png",
+      "./assets/Products/Windows/Iglo Premier/structure1.png",
+      "./assets/Products/Windows/Iglo Premier/structure2.png",
     ],
   },
   {
