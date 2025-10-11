@@ -763,6 +763,387 @@ const products = [
       "./assets/Products/DUOLINE - 68, 78, 88/structure2.png",
     ],
   },
+  {
+    name: "Iglo Energy",
+    tagline:
+      "Modern PVC exterior entrance door with world-leading design and excellent parameters",
+    heroVideo: "./assets/Products/Doors/IGLO ENERGY/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Ud = 0.8 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "82 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "Iglo Energy",
+      detailVideo: "./assets/Products/Doors/IGLO ENERGY/detail.mp4",
+      description:
+        "The Iglo Energy PVC exterior entrance door offers a modern and elegant design combined with high energy efficiency and top functionality. Its outstanding thermal insulation is achieved through premium materials and a specially designed threshold with a thermal break, enhancing the overall performance and comfort of the system.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "Threshold with a thermal break for better insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/IGLO ENERGY/structure1.png",
+      "./assets/Products/Doors/IGLO ENERGY/structure2.png",
+    ],
+  },
+  {
+    name: "Iglo 5",
+    tagline: "High quality at an attractive price",
+    heroVideo: "./assets/Products/Doors/IGLO 5/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Ud = 1.0 W/(m²K)*",
+      numberOfChambers: 5,
+      installationDepth: "70 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "Iglo 5",
+      detailVideo: "./assets/Products/Doors/IGLO 5/detail.mp4",
+      description:
+        "The Iglo 5 system features a 5-chamber structure offering very good thermal insulation at an attractive price. Made from a snow-white A-class profile composed entirely of primary materials, these doors ensure high quality and reliability. Designed for both warm and cold climates, the Iglo 5 delivers durability, functionality, and aesthetic value.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/IGLO 5/structure1.png",
+      "./assets/Products/Doors/IGLO 5/structure2.png",
+    ],
+  },
+  {
+    name: "Iglo Edge",
+    tagline: "World-leading design and excellent parameters",
+    heroVideo: "./assets/Products/Doors/IGLO EDGE/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Ud = 0.81 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "82 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "Iglo Edge",
+      detailVideo: "./assets/Products/Doors/IGLO EDGE/detail.mp4",
+      description:
+        "The Iglo Edge entrance door is a proprietary design that combines innovative technology with a sleek, modern aesthetic inspired by current market trends. Crafted from high-quality construction materials, it delivers outstanding thermal insulation and long-lasting performance. A perfect balance of elegance and functionality, the Iglo Edge meets the expectations of even the most demanding users.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Triple-glazed package Ug = 0.5 W/(m²K)",
+        "Threshold with a thermal break for superior insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/IGLO EDGE/structure1.png",
+      "./assets/Products/Doors/IGLO EDGE/structure2.png",
+    ],
+  },
+  {
+    name: "D-ART Line",
+    tagline: "The perfect combination of art and modern technology",
+    heroVideo: "./assets/Products/Doors/D-ART LINE/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Ud = 0.83 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "77 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "D-ART Line",
+      detailVideo: "./assets/Products/Doors/D-ART LINE/detail.mp4",
+      description:
+        "The D-ART Line doors combine modern technology with artistic design, offering both style and performance. These energy-efficient doors feature durable construction resistant to weather conditions and provide excellent thermal and acoustic insulation for maximum comfort and safety. A perfect choice for those who value aesthetics, durability, and elegance in their home design.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "Hidden hinges",
+        "Warming insert",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/D-ART LINE/structure1.png",
+      "./assets/Products/Doors/D-ART LINE/structure2.png",
+    ],
+  },
+  {
+    name: "MB-86N SI",
+    tagline: "Reduce your heating bills",
+    heroVideo: "./assets/Products/Doors/MB-86N SI/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Ud = 0.83 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "77 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-86N SI",
+      detailVideo: "./assets/Products/Doors/MB-86N SI/detail.mp4",
+      description:
+        "The MB-86N SI exterior aluminium door offers outstanding durability and superior thermal insulation, making it ideal for energy-efficient buildings. Equipped with an aluminium threshold featuring a thermal break, this system provides both elegance and performance while helping to reduce heating costs and improve indoor comfort.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Hidden hinges for two-sided aligned panel",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "Warming insert",
+        "RAL 7016 and 9016 matt paint finish",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-86N SI/structure1.png",
+      "./assets/Products/Doors/MB-86N SI/structure2.png",
+    ],
+  },
+  {
+    name: "MB-79N SI+",
+    tagline: "The Latest Technology in Your Home",
+    heroVideo: "./assets/Products/Doors/MB-79N SI+/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Ud = 0.85 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "70 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-79N SI+",
+      detailVideo: "./assets/Products/Doors/MB-79N SI+/detail.mp4",
+      description:
+        "The MB-79N SI+ aluminium door system is designed for single or double leaf doors that meet enhanced thermal and acoustic requirements. Its advanced structure and triple sealing, including a threshold with a thermal break, ensure excellent insulation and durability. This door combines modern design, reliable performance, and energy efficiency for today’s homes.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "Warming insert",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-79N SI+/structure1.png",
+      "./assets/Products/Doors/MB-79N SI+/structure2.png",
+    ],
+  },
+  {
+    name: "MB-70HI",
+    tagline: "Enjoy perfection for many years",
+    heroVideo: "./assets/Products/Doors/MB-70HI/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 1.2 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "70 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-70HI",
+      detailVideo: "./assets/Products/Doors/MB-70HI/detail.webm",
+      description:
+        "The MB-70HI aluminium door system offers excellent thermal insulation performance at an attractive price. Designed for durability and comfort, these doors are built to withstand various weather conditions while maintaining their elegant appearance. The MB-70HI combines quality, energy efficiency, and timeless design to ensure long-lasting satisfaction.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "RAL 7016 and 9016 matt paint finish",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-70HI/structure1.png",
+      "./assets/Products/Doors/MB-70HI/structure2.png",
+    ],
+  },
+  {
+    name: "MB-70",
+    tagline: "Solution for demanding customers",
+    heroVideo: "./assets/Products/Doors/MB-70/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 1.3 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "70 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-70",
+      detailVideo: "./assets/Products/Doors/MB-70/detail.mp4",
+      description:
+        "The MB-70 aluminium exterior door system is designed for customers who value durability, energy efficiency, and comfort. Built using proven technological solutions, it ensures excellent thermal insulation and long-lasting performance, making it a reliable choice for modern architecture and all weather conditions.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "Double-glazed package Ug = 1.1 W/(m²K)",
+        "RAL 7016 and 9016 matt paint finish",
+        "Threshold with a thermal break for improved insulation",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-70/structure1.png",
+      "./assets/Products/Doors/MB-70/structure2.png",
+    ],
+  },
+  {
+    name: "MB-45",
+    tagline: "System designed for indoors",
+    heroVideo: "./assets/Products/Doors/MB-45/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: null,
+      numberOfChambers: 1,
+      installationDepth: "45 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-45",
+      detailVideo: "./assets/Products/Doors/MB-45/detail.mp4",
+      description:
+        "The MB-45 aluminium door system is designed for indoor use, ideal for spaces that do not require high thermal insulation such as partitions, vestibules, display windows, ticket offices, or showcases. Its one-chamber profile without a thermal break offers durability, functionality, and a sleek appearance, making it perfect for interior architectural applications.",
+      standardEquipment: [
+        "3-point espagnolette locking system",
+        "3 two-winged hinges",
+        "RAL 7016 and 9016 matt paint finish",
+        "Threshold",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-45/structure1.png",
+      "./assets/Products/Doors/MB-45/structure2.png",
+    ],
+  },
+  {
+    name: "MB-78EI Fire-Doors",
+    tagline: "Safety and durability with fire protection",
+    heroVideo: "./assets/Products/Doors/MB-78EI/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Ud = 1,6 W/(m2K)*",
+      numberOfChambers: 3,
+      installationDepth: "78 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-78EI Fire-Doors",
+      detailVideo: "./assets/Products/Doors/MB-78EI/detail.mp4",
+      description:
+        "The MB-78EI fire-rated door system by Drutex is a technologically advanced solution offering excellent fire resistance, tightness, and insulation. With a fire resistance class ranging from EI30 to EI60, these doors ensure maximum safety while maintaining aesthetic appeal and durability. Built with stable aluminium profiles featuring profiled thermal breaks, MB-78EI doors deliver reliability even in extreme conditions.",
+      standardEquipment: [
+        "Thermally insulated aluminium profiles with a depth of 78 mm",
+        "Fire-rated glass with multiple type options",
+        "Fittings compliant with fire-rated standards",
+        "Special swelling and ceramic sealing to block smoke and fire",
+        "Wide range of RAL colours, special colours and textures",
+        "Glass infill thickness options: 20–45 mm and 47–49 mm",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/MB-78EI/structure1.png",
+      "./assets/Products/Doors/MB-78EI/structure2.png",
+    ],
+  },
+  {
+    name: "PIVOT",
+    tagline: "Exterior doors with offset pivot",
+    heroVideo: "./assets/Products/Doors/PIVOT/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: null,
+      thermalTransmittance: null,
+      numberOfChambers: null,
+      installationDepth: "77 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "PIVOT",
+      detailVideo: "./assets/Products/Doors/PIVOT/detail.mp4",
+      description:
+        "The PIVOT door is a striking exterior system designed for large-scale entrances with an offset pivot axis that provides a bold and modern appearance. These doors feature concealed hinges with exceptional load capacity, ensuring stability and smooth operation even with oversized panels. Perfect for contemporary architectural designs, PIVOT doors combine strength, elegance, and innovation.",
+      standardEquipment: [
+        "Offset pivot axis for unique design and functionality",
+        "Concealed high-load hinges",
+        "Durable aluminium construction",
+        "Compatible with modern architectural styles",
+        "Available in various RAL colours and finishes",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/PIVOT/structure1.png",
+      "./assets/Products/Doors/PIVOT/structure2.png",
+    ],
+  },
+  {
+    name: "SOFTLINE 68, 78, 88",
+    tagline: "Timeless beauty of wood",
+    heroVideo: "./assets/Products/Doors/SOFTLINE/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 gaskets",
+      thermalTransmittance:
+        "68 Ud = 1,1 W/(m2K)* / 78 Ud = 0,9 W/(m2K)** / 88 Ud = 0,85 W/(m2K)***",
+      numberOfChambers: null,
+      installationDepth: "68 / 78 / 88 mm",
+      profileClass: "Laminated 3-layer wood profile",
+    },
+    detailSection: {
+      title: "SOFTLINE 68, 78, 88",
+      detailVideo: "./assets/Products/Doors/SOFTLINE/detail.mp4",
+      description:
+        "The SOFTLINE 68, 78, and 88 wooden doors embody the timeless elegance of natural wood craftsmanship. Built from the highest quality laminated, three-layer timber, these doors offer exceptional strength, stability, and insulation. Their classic aesthetic blends beautifully with both modern and traditional architecture, while the aluminium threshold with a thermal break enhances the system’s overall energy efficiency.",
+      standardEquipment: [
+        "3-point espagnolette",
+        "3 roller hinges",
+        "3 gaskets",
+        "Ug from 0,5 to 1,1 W/(m2K) glass",
+        "Threshold with a thermal break",
+        "Azure and opaque paint finishes",
+        "Aluminium handle",
+        "Mounting insert",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Doors/SOFTLINE/structure1.png",
+      "./assets/Products/Doors/SOFTLINE/structure2.png",
+    ],
+  },
 ];
 
 export default products;
