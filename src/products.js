@@ -1892,6 +1892,107 @@ const products = [
       "./assets/Products/TerraceSystems/DUOLINE PSK/structure2.png",
     ],
   },
+  {
+    name: "ALUMINIUM ROLLER SHUTTERS",
+    tagline: "Take care of your comfort and privacy",
+    heroVideo: "./assets/Products/Shutters/ALUMINIUM ROLLER SHUTTERS/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: null,
+      thermalTransmittance: null,
+      numberOfChambers: null,
+      installationDepth: null,
+      profileClass: null,
+    },
+    detailSection: {
+      title: "ALUMINIUM ROLLER SHUTTERS",
+      detailVideo:
+        "./assets/Products/Shutters/ALUMINIUM ROLLER SHUTTERS/detail.mp4",
+      description:
+        "Choose proven and modern solutions to reduce heating and energy bills while taking care of your privacy and safety. Aluminium roller shutters provide excellent protection against sunlight, noise, and unwanted attention, ensuring maximum comfort and energy efficiency. They can also be easily integrated with Smart Home control systems for added convenience and automation.",
+      standardEquipment: [
+        "Durable aluminium profiles ensuring long-lasting performance",
+        "High insulation efficiency to help reduce energy costs",
+        "Manual or automatic control options",
+        "Compatible with Smart Home systems for remote operation",
+        "Available in a wide range of RAL colours and finishes",
+        "Effective protection against excessive sunlight and external noise",
+        "Enhanced privacy and security features",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Shutters/ALUMINIUM ROLLER SHUTTERS/structure1.png",
+      "./assets/Products/Shutters/ALUMINIUM ROLLER SHUTTERS/structure2.png",
+    ],
+  },
+  {
+    name: "PVC TOP-MOUNTED ROLLER SHUTTERS",
+    tagline: "Go modern",
+    heroVideo:
+      "./assets/Products/Shutters/PVC TOP-MOUNTED ROLLER SHUTTERS/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: null,
+      thermalTransmittance: null,
+      numberOfChambers: null,
+      installationDepth: null,
+      profileClass: null,
+    },
+    detailSection: {
+      title: "PVC TOP-MOUNTED ROLLER SHUTTERS",
+      detailVideo:
+        "./assets/Products/Shutters/PVC TOP-MOUNTED ROLLER SHUTTERS/detail.mp4",
+      description:
+        "A perfect all-year solution to ensure privacy, comfort, and energy savings. PVC top-mounted roller shutters provide effective protection from sunlight, noise, and external conditions while maintaining a sleek modern look. They are ideal for enhancing energy efficiency and can easily be integrated with Smart Home control systems for maximum convenience.",
+      standardEquipment: [
+        "Durable PVC construction ensuring long-term reliability",
+        "Excellent insulation for energy savings throughout the year",
+        "Manual or automatic operation options available",
+        "Compatible with Smart Home automation systems",
+        "Available in a range of RAL colours and finishes",
+        "Effective shading and privacy control",
+        "Protection from external noise and weather conditions",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Shutters/PVC TOP-MOUNTED ROLLER SHUTTERS/structure1.png",
+      "./assets/Products/Shutters/PVC TOP-MOUNTED ROLLER SHUTTERS/structure2.png",
+    ],
+  },
+  {
+    name: "ROLLER SHUTTERS WITH STYROFOAM BOX",
+    tagline: null,
+    heroVideo:
+      "./assets/Products/Shutters/ROLLER SHUTTERS WITH STYROFOAM BOX/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: null,
+      thermalTransmittance: null,
+      numberOfChambers: null,
+      installationDepth: null,
+      profileClass: null,
+    },
+    detailSection: {
+      title: "ROLLER SHUTTERS WITH STYROFOAM BOX",
+      detailVideo:
+        "./assets/Products/Shutters/ROLLER SHUTTERS WITH STYROFOAM BOX/detail.mp4",
+      description:
+        "Roller shutters with a Styrofoam box are designed to deliver excellent thermal and sound insulation, providing the living comfort you are looking for. Their modern design ensures optimal protection from external noise and heat loss, while maintaining a clean, aesthetic appearance. They can also be easily integrated with Smart Home control systems for convenient operation.",
+      standardEquipment: [
+        "High thermal and acoustic insulation performance",
+        "Durable Styrofoam box structure for improved efficiency",
+        "Manual or motorized control options available",
+        "Compatible with Smart Home automation systems",
+        "Available in a wide range of colours and designs",
+        "Protection from excessive sunlight and external conditions",
+        "Enhances privacy and comfort in all seasons",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/Shutters/ROLLER SHUTTERS WITH STYROFOAM BOX/structure1.png",
+      "./assets/Products/Shutters/ROLLER SHUTTERS WITH STYROFOAM BOX/structure2.png",
+    ],
+  },
 ];
 
 export default products;
