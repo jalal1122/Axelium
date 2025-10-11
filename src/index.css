@@ -134,7 +134,21 @@
   }
 
   /* Product Page Styles */
-  .hero-section{
+  .hero-section {
     @apply h-[90vh] w-full relative flex justify-center items-center text-white font-bold;
+  }
+
+
+
+  .custom-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+  }
+
+  .custom-listLi {
+    background: url("/list.svg") no-repeat left center;
+    background-size: 20px 20px; /* Adjust image size */
+    padding-left: 30px; /* Space for the icon */
+    margin-bottom: 8px;
   }
 }

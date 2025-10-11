@@ -43,7 +43,7 @@ const Hero = ({ product }) => {
   if (!src) return <div className="hero-section" />;
 
   return (
-    <div className="hero-section relative">
+    <section className="hero-section relative">
       {type === "video" ? (
         <>
           <div>
@@ -139,7 +139,7 @@ const Hero = ({ product }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

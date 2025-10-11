@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import products from "../products.js";
-import Hero from "../components/Products/Hero"
+import Hero from "../components/Products/Hero";
+import Detail from "../components/Products/Detail.jsx";
 
 const Windows = () => {
   const { pdName } = useParams();
@@ -11,7 +12,8 @@ const Windows = () => {
 
   return (
     <>
-        <Hero product={product} />
+      <Hero product={product} />
+      <Detail product={product} />
     </>
   );
 };
