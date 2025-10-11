@@ -2,7 +2,7 @@ const products = [
   {
     name: "IGLO EDGE",
     tagline: "Technology That Impresses",
-    heroVideo: "./assets/Products/IGLO EDGE/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO EDGE/hero.mp4",
     specs: {
       soundInsulation: "36-47 dB",
       gaskets: "3 EPDM gaskets",
@@ -13,7 +13,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO EDGE",
-      detailVideo: "./assets/Products/IGLO EDGE/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO EDGE/detail.mp4",
       description:
         "Our new, most technologically advanced window is distinguished by an excellent thermal insulation parameter of Uw = 0.66 W/(m2K)* and a modern, angular profile shape. The extremely good thermal insulation parameters are due, among other things, to the 7-chamber profile design and 3 EPDM gaskets, including the central gasket.",
       standardEquipment: [
@@ -32,14 +32,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO EDGE/structure1.png",
-      "./assets/Products/IGLO EDGE/structure2.png",
+      "./assets/Products/Windows/IGLO EDGE/structure1.png",
+      "./assets/Products/Windows/IGLO EDGE/structure2.png",
     ],
   },
   {
     name: "IGLO Energy",
     tagline: "",
-    heroVideo: "./assets/Products/IGLO Energy/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO Energy/hero.mp4",
     specs: {
       soundInsulation: "37-46 dB",
       gaskets: "3 EPDM gaskets",
@@ -50,7 +50,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO Energy",
-      detailVideo: "./assets/Products/IGLO Energy/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO Energy/detail.mp4",
       description:
         "An innovative and original 7-chamber A-class profile made exclusively of primary materials. The world's first system using a central gasket made of foamed EPDM to ensure the best energy efficiency parameters. Iglo Energy windows also stand out for their perfect parameters in terms of water tightness, microventilation and resistance to wind.",
       standardEquipment: [
@@ -68,14 +68,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO Energy/structure1.png",
-      "./assets/Products/IGLO Energy/structure2.png",
+      "./assets/Products/Windows/IGLO Energy/structure1.png",
+      "./assets/Products/Windows/IGLO Energy/structure2.png",
     ],
   },
   {
     name: "IGLO Energy Classic",
     tagline: "The best parameters concealed in modern design",
-    heroVideo: "./assets/Products/IGLO Energy Classic/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO Energy Classic/hero.mp4",
     specs: {
       soundInsulation: "36-42 dB",
       gaskets: "3 EPDM gaskets",
@@ -86,7 +86,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO Energy Classic",
-      detailVideo: "./assets/Products/IGLO Energy Classic/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO Energy Classic/detail.mp4",
       description:
         "A unique design where you can choose the square-shaped glazing bead to reflect the latest architectural trends. The remarkable thermal insulation parameters are ensured by the optimum 7-chamber profile structure, a specially designed sealing system made of foamed EPDM and glass packages with high thermal insulation parameters.",
       standardEquipment: [
@@ -105,14 +105,14 @@ const products = [
       profileColors: ["white", "anthracite", "bronze"],
     },
     structureImages: [
-      "./assets/Products/IGLO Energy Classic/structure1.png",
-      "./assets/Products/IGLO Energy Classic/structure2.png",
+      "./assets/Products/Windows/IGLO Energy Classic/structure1.png",
+      "./assets/Products/Windows/IGLO Energy Classic/structure2.png",
     ],
   },
   {
     name: "IGLO ENERGY ALUCOVER",
     tagline: "Redefining Design Excellence",
-    heroVideo: "./assets/Products/IGLO ENERGY ALUCOVER/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO ENERGY ALUCOVER/hero.mp4",
     specs: {
       soundInsulation: "36 - 42 dB*",
       gaskets: "3 EPDM gaskets",
@@ -123,7 +123,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO ENERGY ALUCOVER",
-      detailVideo: "./assets/Products/IGLO ENERGY ALUCOVER/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO ENERGY ALUCOVER/detail.mp4",
       description:
         "Experience the fusion of cutting-edge thermal insulation performance and contemporary design with Iglo Energy Alucover. Embrace boundless creativity with an extensive palette of colors, empowering you to fashion a unique and personalized style for every interior or building facade.",
       standardEquipment: [
@@ -144,14 +144,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO ENERGY ALUCOVER/structure1.png",
-      "./assets/Products/IGLO ENERGY ALUCOVER/structure2.png",
+      "./assets/Products/Windows/IGLO ENERGY ALUCOVER/structure1.png",
+      "./assets/Products/Windows/IGLO ENERGY ALUCOVER/structure2.png",
     ],
   },
   {
     name: "IGLO 5",
     tagline: "High quality at an attractive price",
-    heroVideo: "./assets/Products/IGLO 5/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO 5/hero.mp4",
     specs: {
       soundInsulation: "36-44 dB",
       gaskets: "2 EPDM gaskets",
@@ -162,7 +162,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO 5",
-      detailVideo: "./assets/Products/IGLO 5/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO 5/detail.mp4",
       description:
         "A 5-chamber system featuring very good thermal insulation parameters. Our innovative solution is based on a snow-white A-class profile made exclusively of primary materials to ensure the highest quality. These windows are perfect for both warm and cold climates.",
       standardEquipment: [
@@ -182,14 +182,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO 5/structure1.png",
-      "./assets/Products/IGLO 5/structure2.png",
+      "./assets/Products/Windows/IGLO 5/structure1.png",
+      "./assets/Products/Windows/IGLO 5/structure2.png",
     ],
   },
   {
     name: "IGLO 5 Classic",
     tagline: "Proven solutions mean customer satisfaction",
-    heroVideo: "./assets/Products/IGLO 5 Classic/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO 5 Classic/hero.mp4",
     specs: {
       soundInsulation: "34-42 dB",
       gaskets: "2 EPDM gaskets",
@@ -200,7 +200,7 @@ const products = [
     },
     detailSection: {
       title: "IGLO 5 Classic",
-      detailVideo: "./assets/Products/IGLO 5 Classic/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO 5 Classic/detail.mp4",
       description:
         "Windows appreciated by Customers across the globe. They feature not only very good thermal insulation parameters but also excellent aesthetic values. With a wide range of Renolit veneers and numerous additional options, we can create the windows that will meet the expectations of the most demanding Customers.",
       standardEquipment: [
@@ -220,14 +220,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO 5 Classic/structure1.png",
-      "./assets/Products/IGLO 5 Classic/structure2.png",
+      "./assets/Products/Windows/IGLO 5 Classic/structure1.png",
+      "./assets/Products/Windows/IGLO 5 Classic/structure2.png",
     ],
   },
   {
     name: "IGLO Light",
     tagline: "Even more daylight",
-    heroVideo: "./assets/Products/IGLO Light/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO Light/hero.mp4",
     specs: {
       soundInsulation: "34 dB",
       gaskets: "2 EPDM gaskets",
@@ -239,7 +239,7 @@ const products = [
     detailSection: {
       title: "IGLO Light",
       tagline: "Even more daylight",
-      detailVideo: "./assets/Products/IGLO Light/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IGLO Light/detail.mp4",
       description:
         "This 5-chamber and original system stands out for its high aesthetic values and thin frame and sash profiles. Compared to traditional systems, it has a 32% thinner movable post to improve the amount of daylight that reaches a room.",
       standardEquipment: [
@@ -260,14 +260,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO Light/structure1.png",
-      "./assets/Products/IGLO Light/structure2.png",
+      "./assets/Products/Windows/IGLO Light/structure1.png",
+      "./assets/Products/Windows/IGLO Light/structure2.png",
     ],
   },
   {
-    name: "Iglo EXT",
+    name: "IGLO EXT",
     tagline: "Modern PVC balcony windows and doors that open outwards",
-    heroVideo: "./assets/Products/IGLO EXT/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO EXT/hero.mp4",
     specs: {
       soundInsulation: "34 - 35 dB*",
       gaskets: "2 EPDM gaskets",
@@ -277,8 +277,8 @@ const products = [
       profileClass: "A",
     },
     detailSection: {
-      title: "Iglo EXT",
-      detailVideo: "./assets/Products/IGLO EXT/detail.mp4",
+      title: "IGLO EXT",
+      detailVideo: "./assets/Products/Windows/IGLO EXT/detail.mp4",
       description:
         "Balcony windows and doors that open outwards stand out for their modern design and excellent thermal insulation performance. As standard, these windows have hidden fittings (invisible when closed), while balcony doors have door (surface) fittings. The Iglo EXT window and door system is ideal for those looking for modern design and high aesthetic values.",
       standardEquipment: [
@@ -296,14 +296,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO EXT/structure1.png",
-      "./assets/Products/IGLO EXT/structure2.png",
+      "./assets/Products/Windows/IGLO EXT/structure1.png",
+      "./assets/Products/Windows/IGLO EXT/structure2.png",
     ],
   },
   {
-    name: "Iglo Premier",
+    name: "IGLO PREMIER",
     tagline: "Modern outward opening tilt and turn windows",
-    heroVideo: "./assets/Products/IGLO PREMIER/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IGLO PREMIER/hero.mp4",
     specs: {
       soundInsulation: "34 - 35 dB*",
       gaskets: "2 EPDM gaskets",
@@ -313,8 +313,8 @@ const products = [
       profileClass: "A",
     },
     detailSection: {
-      title: "Iglo Premier",
-      detailVideo: "./assets/Products/IGLO PREMIER/detail.mp4",
+      title: "IGLO PREMIER",
+      detailVideo: "./assets/Products/Windows/IGLO PREMIER/detail.mp4",
       description:
         "Original outward opening tilt and turn windows are based on an extremely warm 5-chamber A-class profile made exclusively of primary material. The system comes with double sealing and reliable fittings to ensure high utility values for years to come.",
       standardEquipment: [
@@ -332,14 +332,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IGLO PREMIER/structure1.png",
-      "./assets/Products/IGLO PREMIER/structure2.png",
+      "./assets/Products/Windows/IGLO PREMIER/structure1.png",
+      "./assets/Products/Windows/IGLO PREMIER/structure2.png",
     ],
   },
   {
     name: "IDEAL NEO AD",
     tagline: "More than modern design",
-    heroVideo: "./assets/Products/IDEAL NEO AD/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IDEAL NEO AD/hero.mp4",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "2 gaskets",
@@ -351,7 +351,7 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO AD",
-      detailVideo: "./assets/Products/IDEAL NEO AD/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IDEAL NEO AD/detail.mp4",
       description:
         "Slim and symmetrical profiles refer to current design trends and give lightness and elegance to the windows. Extremely narrow profile combinations mean even more light in the rooms. An attractive solution for both new built and renovation.",
       standardEquipment: [
@@ -366,14 +366,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IDEAL NEO AD/structure1.png",
-      "./assets/Products/IDEAL NEO AD/structure2.png",
+      "./assets/Products/Windows/IDEAL NEO AD/structure1.png",
+      "./assets/Products/Windows/IDEAL NEO AD/structure2.png",
     ],
   },
   {
     name: "IDEAL NEO MD",
     tagline: "More than modern design",
-    heroVideo: "./assets/Products/IDEAL NEO MD/hero.mp4",
+    heroVideo: "./assets/Products/Windows/IDEAL NEO MD/hero.mp4",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "3 seals",
@@ -385,7 +385,7 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD",
-      detailVideo: "./assets/Products/IDEAL NEO MD/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IDEAL NEO MD/detail.mp4",
       description:
         "Slim and symmetrical profiles refer to current design trends and give lightness and elegance to the windows. Extremely narrow profile combinations mean even more light in the rooms. An attractive solution for both new built and renovation.",
       standardEquipment: [
@@ -400,14 +400,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IDEAL NEO MD/structure1.png",
-      "./assets/Products/IDEAL NEO MD/structure2.png",
+      "./assets/Products/Windows/IDEAL NEO MD/structure1.png",
+      "./assets/Products/Windows/IDEAL NEO MD/structure2.png",
     ],
   },
   {
     name: "IDEAL NEO MD-FS",
     tagline: "In harmony with the architecture",
-    heroVideo: "./assets/Products/IDEAL NEO MD-FS/hero.png",
+    heroVideo: "./assets/Products/Windows/IDEAL NEO MD-FS/hero.png",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "3 gaskets",
@@ -419,7 +419,7 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD-FS",
-      detailVideo: "./assets/Products/IDEAL NEO MD-FS/detail.png",
+      detailVideo: "./assets/Products/Windows/IDEAL NEO MD-FS/detail.png",
       description:
         "IDEAL NEO MD-FS is an extremely attractive design proposition for customers who value timeless style. A simple, symmetrical, cubist shape is the distinguishing feature of the system. Sharp angles and geometric architecture, and at the same time visual lightness of the structure.",
       standardEquipment: [
@@ -434,14 +434,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IDEAL NEO MD-FS/structure1.png",
-      "./assets/Products/IDEAL NEO MD-FS/structure2.png",
+      "./assets/Products/Windows/IDEAL NEO MD-FS/structure1.png",
+      "./assets/Products/Windows/IDEAL NEO MD-FS/structure2.png",
     ],
   },
   {
     name: "IDEAL NEO MD MONOBLOCK",
     tagline: null,
-    heroVideo: "./assets/Products/IDEAL NEO MD MONOBLOCK/hero.png",
+    heroVideo: "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/hero.png",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "3 gaskets",
@@ -453,20 +453,20 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD MONOBLOCK",
-      detailVideo: "./assets/Products/IDEAL NEO MD MONOBLOCK/detail.png",
+      detailVideo: "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/detail.png",
       description:
         "Monoblock frames are designed for the construction of windows installed within a layer of insulation. The wide range of Monoblock frame sizes (76 mm, 122 mm, 142 mm, 162 mm) allows for appropriate selection depending on the insulation thickness. A special shelf (window sill) located on the outer side of the frame aesthetically covers the insulation around the window perimeter, preventing thermal bridges. The inner rebate of the Monoblock frame ensures aesthetic installation from the room interior without the need for gypsum finishing.",
       standardEquipment: [],
     },
     structureImages: [
-      "./assets/Products/IDEAL NEO MD MONOBLOCK/structure1.png",
-      "./assets/Products/IDEAL NEO MD MONOBLOCK/structure2.png",
+      "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/structure1.png",
+      "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/structure2.png",
     ],
   },
   {
     name: "IDEAL NEO MD RENOVATION",
     tagline: null,
-    heroVideo: "./assets/Products/IDEAL NEO MD RENOVATION/hero.png",
+    heroVideo: "./assets/Products/Windows/IDEAL NEO MD RENOVATION/hero.png",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "3 gaskets",
@@ -478,20 +478,20 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD RENOVATION",
-      detailVideo: "./assets/Products/IDEAL NEO MD RENOVATION/detail.png",
+      detailVideo: "./assets/Products/Windows/IDEAL NEO MD RENOVATION/detail.png",
       description:
         "The renovation frame system is designed for window installation without dismantling old frames. This solution uses special renovation frames with a masking profile that surrounds the existing wooden frame, creating a clean inner band. On the exterior, special housing profiles can be applied. The masking profiles are available in different widths (40 mm, 70 mm), and can also be trimmed to fit specific installation requirements.",
       standardEquipment: [],
     },
     structureImages: [
-      "./assets/Products/IDEAL NEO MD RENOVATION/structure1.png",
-      "./assets/Products/IDEAL NEO MD RENOVATION/structure2.png",
+      "./assets/Products/Windows/IDEAL NEO MD RENOVATION/structure1.png",
+      "./assets/Products/Windows/IDEAL NEO MD RENOVATION/structure2.png",
     ],
   },
   {
     name: "IDEAL 7000 NL",
     tagline: "In harmony with the architecture",
-    heroVideo: "./assets/Products/IDEAL 7000 NL/hero.png",
+    heroVideo: "./assets/Products/Windows/IDEAL 7000 NL/hero.png",
     specs: {
       soundInsulation: "36 dB",
       gaskets: "2 gaskets",
@@ -503,7 +503,7 @@ const products = [
     },
     detailSection: {
       title: "IDEAL 7000 NL",
-      detailVideo: "./assets/Products/IDEAL 7000 NL/detail.mp4",
+      detailVideo: "./assets/Products/Windows/IDEAL 7000 NL/detail.mp4",
       description:
         "The IDEAL 7000 NL system is the perfect solution for the Dutch market. With its 120 mm wide frame featuring external rebates, it allows for easy, fast, and aesthetically pleasing window installation in buildings made of facing brick (clinker) without requiring additional masonry work.",
       standardEquipment: [
@@ -519,14 +519,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/IDEAL 7000 NL/structure1.png",
-      "./assets/Products/IDEAL 7000 NL/structure2.png",
+      "./assets/Products/Windows/IDEAL 7000 NL/structure1.png",
+      "./assets/Products/Windows/IDEAL 7000 NL/structure2.png",
     ],
   },
   {
     name: "MB-86N SI",
     tagline: "Excellent parameters and durability of aluminium",
-    heroVideo: "./assets/Products/MB-86N SI/hero.mp4",
+    heroVideo: "./assets/Products/Windows/MB-86N SI/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "2 EPDM gaskets",
@@ -537,7 +537,7 @@ const products = [
     },
     detailSection: {
       title: "MB-86N SI",
-      detailVideo: "./assets/Products/MB-86N SI/detail.mp4",
+      detailVideo: "./assets/Products/Windows/MB-86N SI/detail.mp4",
       description:
         "MB-86N SI aluminium windows stand out for their excellent thermal insulation parameters and modern design. With over 200 colours to choose from and numerous additional options, they offer full customisation and can be fitted with Smart Home solutions for enhanced convenience.",
       standardEquipment: [
@@ -553,14 +553,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/MB-86N SI/structure1.png",
-      "./assets/Products/MB-86N SI/structure2.png",
+      "./assets/Products/Windows/MB-86N SI/structure1.png",
+      "./assets/Products/Windows/MB-86N SI/structure2.png",
     ],
   },
   {
     name: "MB-79N SI",
     tagline: "Choose Energy Efficiency",
-    heroVideo: "./assets/Products/MB-79N SI/hero.png",
+    heroVideo: "./assets/Products/Windows/MB-79N SI/hero.png",
     specs: {
       soundInsulation: null,
       gaskets: "2 EPDM gaskets",
@@ -571,7 +571,7 @@ const products = [
     },
     detailSection: {
       title: "MB-79N SI",
-      detailVideo: "./assets/Products/MB-79N SI/detail.mp4",
+      detailVideo: "./assets/Products/Windows/MB-79N SI/detail.mp4",
       description:
         "The new line of aluminium windows with increased thermal insulation, equipped with insulating inserts and a two-component central gasket, ensures lower heating bills. Its modern design with over 200 colour options and many additional features makes it a perfect choice for demanding customers.",
       standardEquipment: [
@@ -587,15 +587,15 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/MB-79N SI/structure1.png",
-      "./assets/Products/MB-79N SI/structure2.png",
+      "./assets/Products/Windows/MB-79N SI/structure1.png",
+      "./assets/Products/Windows/MB-79N SI/structure2.png",
     ],
   },
   {
     name: "MB-70HI",
     tagline:
       "Lightweight and durable aluminium windows for long-lasting comfort",
-    heroVideo: "./assets/Products/MB-70HI/hero.mp4",
+    heroVideo: "./assets/Products/Windows/MB-70HI/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "3 EPDM gaskets",
@@ -606,7 +606,7 @@ const products = [
     },
     detailSection: {
       title: "MB-70HI",
-      detailVideo: "./assets/Products/MB-70HI/detail.mp4",
+      detailVideo: "./assets/Products/Windows/MB-70HI/detail.mp4",
       description:
         "Aluminium windows made using this system can be used in both individual buildings and aluminium facades. The lightweight and durable construction ensures a high level of comfort for many years of use.",
       standardEquipment: [
@@ -622,15 +622,15 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/MB-70HI/structure1.png",
-      "./assets/Products/MB-70HI/structure2.png",
+      "./assets/Products/Windows/MB-70HI/structure1.png",
+      "./assets/Products/Windows/MB-70HI/structure2.png",
     ],
   },
   {
     name: "MB-70",
     tagline:
       "Modern aluminium system with excellent thermal and acoustic insulation",
-    heroVideo: "./assets/Products/MB-70/hero.mp4",
+    heroVideo: "./assets/Products/Windows/MB-70/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "3 EPDM gaskets",
@@ -641,7 +641,7 @@ const products = [
     },
     detailSection: {
       title: "MB-70",
-      detailVideo: "./assets/Products/MB-70/detail.mp4",
+      detailVideo: "./assets/Products/Windows/MB-70/detail.mp4",
       description:
         "The MB-70 system is a modern aluminium solution designed for the production of exterior architectural elements that require thermal and acoustic insulation. It offers durability, performance, and elegant design suitable for various building styles.",
       standardEquipment: [
@@ -657,14 +657,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/MB-70/structure1.png",
-      "./assets/Products/MB-70/structure2.png",
+      "./assets/Products/Windows/MB-70/structure1.png",
+      "./assets/Products/Windows/MB-70/structure2.png",
     ],
   },
   {
     name: "MB-45",
     tagline: "Modern aluminium system for versatile interior design",
-    heroVideo: "./assets/Products/MB-45/hero.mp4",
+    heroVideo: "./assets/Products/Windows/MB-45/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "2 EPDM gaskets",
@@ -675,7 +675,7 @@ const products = [
     },
     detailSection: {
       title: "MB-45",
-      detailVideo: "./assets/Products/MB-45/detail.mp4",
+      detailVideo: "./assets/Products/Windows/MB-45/detail.mp4",
       description:
         "The MB-45 aluminium window system allows for the creation of diverse interior designs. It combines durability with a modern appearance, making it ideal for projects that require a refined aesthetic without the need for thermal insulation.",
       standardEquipment: [
@@ -691,14 +691,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/MB-45/structure1.png",
-      "./assets/Products/MB-45/structure2.png",
+      "./assets/Products/Windows/MB-45/structure1.png",
+      "./assets/Products/Windows/MB-45/structure2.png",
     ],
   },
   {
     name: "SOFTLINE - 68, 78, 88",
     tagline: "Durability and beauty of nature",
-    heroVideo: "./assets/Products/SOFTLINE - 68, 78, 88/hero.mp4",
+    heroVideo: "./assets/Products/Windows/SOFTLINE - 68, 78, 88/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "2 EPDM gaskets",
@@ -709,7 +709,7 @@ const products = [
     },
     detailSection: {
       title: "SOFTLINE - 68, 78, 88",
-      detailVideo: "./assets/Products/SOFTLINE - 68, 78, 88/detail.mp4",
+      detailVideo: "./assets/Products/Windows/SOFTLINE - 68, 78, 88/detail.mp4",
       description:
         "Our wooden windows combine the highest quality craftsmanship, eco-friendly materials, and classic elegance. Exceptional durability is achieved through an aluminium bead that protects the wood from UV radiation and moisture. The Softline series features beautifully rounded profiles with smooth, shiny surfaces and is available in pine and meranti variants.",
       standardEquipment: [
@@ -725,14 +725,14 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/SOFTLINE - 68, 78, 88/structure1.png",
-      "./assets/Products/SOFTLINE - 68, 78, 88/structure2.png",
+      "./assets/Products/Windows/SOFTLINE - 68, 78, 88/structure1.png",
+      "./assets/Products/Windows/SOFTLINE - 68, 78, 88/structure2.png",
     ],
   },
   {
     name: "DUOLINE - 68, 78, 88",
     tagline: "Unique combination of wood and aluminium",
-    heroVideo: "./assets/Products/DUOLINE - 68, 78, 88/hero.mp4",
+    heroVideo: "./assets/Products/Windows/DUOLINE - 68, 78, 88/hero.mp4",
     specs: {
       soundInsulation: null,
       gaskets: "3 Gaskets",
@@ -743,7 +743,7 @@ const products = [
     },
     detailSection: {
       title: "DUOLINE - 68, 78, 88",
-      detailVideo: "./assets/Products/DUOLINE - 68, 78, 88/detail.mp4",
+      detailVideo: "./assets/Products/Windows/DUOLINE - 68, 78, 88/detail.mp4",
       description:
         "DUOLINE windows combine the timeless beauty of natural wood with the modern durability of aluminium. This unique hybrid structure ensures excellent insulation, long-lasting performance, and elegant aesthetics. Numerous customization options allow you to tailor the windows perfectly to your architectural and personal needs.",
       standardEquipment: [
@@ -759,8 +759,8 @@ const products = [
       ],
     },
     structureImages: [
-      "./assets/Products/DUOLINE - 68, 78, 88/structure1.png",
-      "./assets/Products/DUOLINE - 68, 78, 88/structure2.png",
+      "./assets/Products/Windows/DUOLINE - 68, 78, 88/structure1.png",
+      "./assets/Products/Windows/DUOLINE - 68, 78, 88/structure2.png",
     ],
   },
 ];

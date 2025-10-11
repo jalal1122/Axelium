@@ -132,4 +132,9 @@
       rgba(0, 0, 0, 1) 100%
     );
   }
+
+  /* Product Page Styles */
+  .hero-section{
+    @apply h-[90vh] w-full relative flex justify-center items-center text-white font-bold;
+  }
 }
