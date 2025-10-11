@@ -59,11 +59,14 @@ const Hero = ({ product }) => {
           />
         </>
       ) : (
-        <img
-          className="absolute inset-0 w-full h-full object-cover"
-          src={src}
-          alt={product?.name || "product hero"}
-        />
+        <>
+        <div className="absolute top-0 left-0 z-10 w-full h-full inset-0 bg-black/35" />
+          <img
+            className="absolute inset-0 w-full h-full object-cover"
+            src={src}
+            alt={product?.name || "product hero"}
+          />
+        </>
       )}
 
       {/* Hero Content */}

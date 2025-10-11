@@ -7,7 +7,7 @@ const ShuttersMenu = () => {
         <li className="menu-heading">Rénovation</li>
 
         <li>
-          <Link to="" className="menu-item">
+          <Link to="/product/shutters/Volets roulants en aluminium" className="menu-item">
             <span>Volets roulants en aluminium</span>
           </Link>
         </li>
@@ -17,12 +17,12 @@ const ShuttersMenu = () => {
         <li className="menu-heading">MONOBLOC</li>
 
         <li>
-          <Link to="" className="menu-item">
+          <Link to="/product/shutters/Volets roulants en PVC" className="menu-item">
             <span>Volets roulants en PVC</span>
           </Link>
         </li>
         <li>
-          <Link to="" className="menu-item">
+          <Link to="/product/shutters/Volets roulants avec caisson en polystyrène" className="menu-item">
             <span>Volets roulants avec caisson en polystyrène</span>
           </Link>
         </li>

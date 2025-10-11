@@ -14,37 +14,39 @@ import shuttersSvg from "../assets/MegaMunuSvg/shutters.svg";
 import { Link } from "react-router";
 
 const Navbar = () => {
-    const navigate = useNavigate();
-    
-    const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
-    
-    const [isMobileMegaMenuOpen, setIsMobileMegaMenuOpen] = useState(false);
-    
-    const windowsMenuRef = useRef(null);
-    
-    const doorsMenuRef = useRef(null);
-    
-    const terraceSystemsMenuRef = useRef(null);
-    
-    const shuttersMenuRef = useRef(null);
-    
-    const mobileMegaMenu = useRef(null);
-    
-    const mobileMenuRef = useRef(null);
+  const navigate = useNavigate();
 
-    gsap.registerPlugin(useGSAP);
+  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
+
+  const [isMobileMegaMenuOpen, setIsMobileMegaMenuOpen] = useState(false);
+
+  const windowsMenuRef = useRef(null);
+
+  const doorsMenuRef = useRef(null);
+
+  const terraceSystemsMenuRef = useRef(null);
+
+  const shuttersMenuRef = useRef(null);
+
+  const mobileMegaMenu = useRef(null);
+
+  const mobileMenuRef = useRef(null);
+
+  gsap.registerPlugin(useGSAP);
 
   return (
     <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
       <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
         <div className="flex justify-center items-center gap-4 p-2">
-          <img src="/logo.svg" alt="Logo" className="w-15" />
-          <img
-            src="/logo_text.svg"
-            alt="Logo Text"
-            className="relative hidden top-1 sm:w-30"
-          />
+          <Link to="/">
+            <img src="/logo.svg" alt="Logo" className="w-15" />
+            <img
+              src="/logo_text.svg"
+              alt="Logo Text"
+              className="relative hidden top-1 sm:w-30"
+            />
+          </Link>
         </div>
 
         {/* Nav Links Side */}
@@ -69,7 +71,12 @@ const Navbar = () => {
 
         {/* Request a Quote */}
         <div>
-          <button onClick={() => navigate("/contact")} className="button-special text-sm md:text-md">Demander un devis</button>
+          <button
+            onClick={() => navigate("/contact")}
+            className="button-special text-sm md:text-md"
+          >
+            Demander un devis
+          </button>
         </div>
 
         {/* Burger Menu */}
@@ -242,17 +249,26 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IGLO Energy" className="mobile-menu-item">
+            <Link
+              to="/product/windows/IGLO Energy"
+              className="mobile-menu-item"
+            >
               <span>IGLO Energy</span>
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IGLO Energy Classic" className="mobile-menu-item">
+            <Link
+              to="/product/windows/IGLO Energy Classic"
+              className="mobile-menu-item"
+            >
               <span>IGLO Energy Classic</span>
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IGLO ENERGY ALUCOVER" className="mobile-menu-item">
+            <Link
+              to="/product/windows/IGLO ENERGY ALUCOVER"
+              className="mobile-menu-item"
+            >
               <span>IGLO ENERGY ALUCOVER</span>
             </Link>
           </li>
@@ -262,7 +278,10 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IGLO 5 Classic" className="mobile-menu-item">
+            <Link
+              to="/product/windows/IGLO 5 Classic"
+              className="mobile-menu-item"
+            >
               <span>IGLO 5 Classic</span>
             </Link>
           </li>
@@ -277,7 +296,10 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/product/windows/IGLO PREMIER" className="mobile-menu-item">
+            <Link
+              to="/product/windows/IGLO PREMIER"
+              className="mobile-menu-item"
+            >
               <span>IGLO PREMIER</span>
             </Link>
           </li>
@@ -322,7 +344,10 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Fenêtres en bois</li>
 
           <li>
-            <Link to="/product/windows/SOFTLINE - 68, 78, 88" className="mobile-menu-item">
+            <Link
+              to="/product/windows/SOFTLINE - 68, 78, 88"
+              className="mobile-menu-item"
+            >
               <span>SOFTLINE - 68, 78, 88</span>
             </Link>
           </li>
@@ -334,7 +359,10 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="/product/windows/DUOLINE - 68, 78, 88" className="mobile-menu-item">
+            <Link
+              to="/product/windows/DUOLINE - 68, 78, 88"
+              className="mobile-menu-item"
+            >
               <span>DUOLINE - 68, 78, 88</span>
             </Link>
           </li>
@@ -365,18 +393,18 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Porte d'entrée en PVC</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
-              <span>IGLO ENERGY</span>
+            <Link to="/product/doors/Iglo Energy" className="mobile-menu-item">
+              <span>Iglo Energy</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
-              <span>IGLO 5</span>
+            <Link to="/product/doors/Iglo 5" className="mobile-menu-item">
+              <span>Iglo 5</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
-              <span>IGLO EDGE</span>
+            <Link to="/product/doors/Iglo Edge" className="mobile-menu-item">
+              <span>Iglo Edge</span>
             </Link>
           </li>
         </ul>
@@ -385,42 +413,45 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Portes en aluminium</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/D-ART Line" className="mobile-menu-item">
               <span>D-ART Line</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/MB-86N SI" className="mobile-menu-item">
               <span>MB-86N SI</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/MB-79N SI+" className="mobile-menu-item">
               <span>MB-79N SI+</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/MB-70HI" className="mobile-menu-item">
               <span>MB-70HI</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/MB-70" className="mobile-menu-item">
               <span>MB-70</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/MB-45" className="mobile-menu-item">
               <span>MB-45</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/doors/MB-78EI Fire-Doors"
+              className="mobile-menu-item"
+            >
               <span>MB-78EI Fire-Doors</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link to="/product/doors/PIVOT" className="mobile-menu-item">
               <span>PIVOT</span>
             </Link>
           </li>
@@ -430,7 +461,10 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Porte d'entrée en bois</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/doors/SOFTLINE 68, 78, 88"
+              className="mobile-menu-item"
+            >
               <span>SOFTLINE 68, 78, 88</span>
             </Link>
           </li>
@@ -462,37 +496,58 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Levant coulissant HS</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO-HS"
+              className="mobile-menu-item"
+            >
               <span>IGLO-HS</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO-HS ALUCOVER"
+              className="mobile-menu-item"
+            >
               <span>IGLO-HS ALUCOVER</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/MB-77HS HI"
+              className="mobile-menu-item"
+            >
               <span>MB-77HS HI</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/MB-77HS HI MONORAIL"
+              className="mobile-menu-item"
+            >
               <span>MB-77HS HI MONORAIL</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/MB-59HS HI"
+              className="mobile-menu-item"
+            >
               <span>MB-59HS HI</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/SOFTLINE HS"
+              className="mobile-menu-item"
+            >
               <span>SOFTLINE HS</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/DUOLINE HS"
+              className="mobile-menu-item"
+            >
               <span>DUOLINE HS</span>
             </Link>
           </li>
@@ -502,27 +557,42 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Coulissant</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO EDGE SLIDE"
+              className="mobile-menu-item"
+            >
               <span>IGLO EDGE SLIDE</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO SLIDE"
+              className="mobile-menu-item"
+            >
               <span>IGLO SLIDE</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/MB-SLIDE"
+              className="mobile-menu-item"
+            >
               <span>MB-SLIDE</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/COR VISION"
+              className="mobile-menu-item"
+            >
               <span>COR VISION</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/COR VISION PLUS"
+              className="mobile-menu-item"
+            >
               <span>COR VISION PLUS</span>
             </Link>
           </li>
@@ -531,18 +601,19 @@ const Navbar = () => {
         <ul className="flex flex-col gap-4">
           <li className="mobile-menu-heading">Accordéon</li>
           <li>
-            <Link to="" className="mobile-menu-item">
-              <span>MB-86 FOLD LINE HD</span>
+            <Link
+              to="/product/terracesystems/MB-86 Fold Line HD"
+              className="mobile-menu-item"
+            >
+              <span>MB-86 Fold Line HD</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
-              <span>SOFTLINE 86</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="" className="mobile-menu-item">
-              <span>IGLO EDGE</span>
+            <Link
+              to="/product/terracesystems/SOFTLINE 68"
+              className="mobile-menu-item"
+            >
+              <span>SOFTLINE 68</span>
             </Link>
           </li>
         </ul>
@@ -551,42 +622,66 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Oscillo - coulissant PSK</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO ENERGY PSK"
+              className="mobile-menu-item"
+            >
               <span>IGLO ENERGY PSK</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO ENERGY CLASSIC PSK"
+              className="mobile-menu-item"
+            >
               <span>IGLO ENERGY CLASSIC PSK</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO 5 PSK"
+              className="mobile-menu-item"
+            >
               <span>IGLO 5 PSK</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO 5 CLASSIC PSK"
+              className="mobile-menu-item"
+            >
               <span>IGLO 5 CLASSIC PSK</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/IGLO LIGHT PSK"
+              className="mobile-menu-item"
+            >
               <span>IGLO LIGHT PSK</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/MB-70 and MB-70HI PSK"
+              className="mobile-menu-item"
+            >
               <span>MB-70/MB-70HI PSK</span>
             </Link>
           </li>
-          <li>
-            <Link to="" className="mobile-menu-item">
-              <span>SOFTLINE PSK</span>
+          <>
+            <Link
+              to="/product/terracesystems/Softline PSK"
+              className="mobile-menu-item"
+            >
+              <span>Softline PSK</span>
             </Link>
-          </li>
+          </>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/terracesystems/DUOLINE PSK"
+              className="mobile-menu-item"
+            >
               <span>DUOLINE PSK</span>
             </Link>
           </li>
@@ -618,7 +713,10 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Rénovation</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/shutters/Volets roulants en aluminium"
+              className="mobile-menu-item"
+            >
               <span>Volets roulants en aluminium</span>
             </Link>
           </li>
@@ -627,12 +725,18 @@ const Navbar = () => {
           <li className="mobile-menu-heading">MONOBLOC</li>
 
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/shutters/Volets roulants en PVC"
+              className="mobile-menu-item"
+            >
               <span>Volets roulants en PVC</span>
             </Link>
           </li>
           <li>
-            <Link to="" className="mobile-menu-item">
+            <Link
+              to="/product/shutters/Volets roulants avec caisson en polystyrène"
+              className="mobile-menu-item"
+            >
               <span>Volets roulants avec caisson en polystyrène</span>
             </Link>
           </li>

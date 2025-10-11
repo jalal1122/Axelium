@@ -4,27 +4,15 @@ import Hero from "../components/Products/Hero";
 import Detail from "../components/Products/Detail.jsx";
 import Structure from "../components/Products/Structure";
 
-const Windows = () => {
+const TerraceSystems = () => {
   const { pdName } = useParams();
 
   const pathName = window.location.pathname.split("/")[2];
 
   let myProducts;
 
-  if (pathName === "windows") {
-    myProducts = products.windows;
-  }
-
-  if (pathName === "doors") {
-    myProducts = products.doors;
-  }
-
   if (pathName === "terracesystems") {
     myProducts = products.terraceSystems;
-  }
-
-  if(pathName === "shutters") {
-    myProducts = products.shutters;
   }
 
   const product = myProducts.find((p) => p.name === decodeURIComponent(pdName));
@@ -38,4 +26,4 @@ const Windows = () => {
   );
 };
 
-export default Windows;
+export default TerraceSystems;

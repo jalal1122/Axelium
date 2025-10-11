@@ -24,19 +24,20 @@ const Structure = ({ product }) => {
 
   return (
     <div className="w-full flex justify-start items-center flex-wrap gap-6 p-8">
-      {list.map((p, i) => {
-        const src = resolveImage(p);
-        console.log(src);
-        if (!src) return null;
-        return (
-          <img
-            key={`${p}-${i}`}
-            src={src}
-            alt={`${product?.name || "Product"} structure ${i + 1}`}
-            className="w-100 h-auto object-contain"
-          />
-        );
-      })}
+      {list.length > 0 &&
+        list.map((p, i) => {
+          const src = resolveImage(p);
+          console.log(src);
+          if (!src) return null;
+          return (
+            <img
+              key={`${p}-${i}`}
+              src={src}
+              alt={`${product?.name || "Product"} structure ${i + 1}`}
+              className="w-100 h-auto object-contain"
+            />
+          );
+        })}
     </div>
   );
 };

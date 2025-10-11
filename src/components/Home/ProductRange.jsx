@@ -22,6 +22,39 @@ const ProductRange = () => {
   const productDetailsRef = useRef(null);
   const productImageRef = useRef(null);
 
+  const openCategory = (bgImg, categoryIndex) => {
+    // Breakpoints aligned roughly with Tailwind: md=768, lg=1024
+    const w = typeof window !== "undefined" ? window.innerWidth : 1024;
+    let detailsW;
+    if (w < 768) {
+      // Mobile: 50% or more — choose 70% to ensure prominence
+      detailsW = 70; // vw
+    } else if (w < 1024) {
+      // Tablet
+      detailsW = 50; // vw
+    } else {
+      // Desktop
+      detailsW = 30; // vw
+    }
+    const imageW = 100 - detailsW;
+
+    gsap.to(productDetailsRef.current, {
+      width: `${detailsW}vw`,
+      duration: 0.5,
+      display: "block",
+      ease: "power2.out",
+    });
+    gsap.to(productImageRef.current, {
+      width: `${imageW}vw`,
+      duration: 0.5,
+      display: "block",
+      ease: "power2.out",
+    });
+
+    setWindowsBgImg(bgImg);
+    setCurrentCategory(products[categoryIndex]);
+  };
+
   return (
     <section className="product-range relative">
       <h2 className="text-3xl font-bold mb-4">Gamme de produits</h2>
@@ -32,22 +65,7 @@ const ProductRange = () => {
 
       {/* Product Items */}
       <div className="products-flex">
-        <button
-          onClick={() => {
-            gsap.to(productDetailsRef.current, {
-              width: "30vw",
-              duration: 0.5,
-              display: "block",
-            });
-            gsap.to(productImageRef.current, {
-              width: "70vw",
-              duration: 0.5,
-              display: "block",
-            });
-            setWindowsBgImg(windowsbgImg);
-            setCurrentCategory(products[0]);
-          }}
-        >
+        <button onClick={() => openCategory(windowsbgImg, 0)}>
           <div
             className="product-item"
             style={{
@@ -60,22 +78,7 @@ const ProductRange = () => {
           </div>
         </button>
 
-        <button
-          onClick={() => {
-            gsap.to(productDetailsRef.current, {
-              width: "30vw",
-              duration: 0.5,
-              display: "block",
-            });
-            gsap.to(productImageRef.current, {
-              width: "70vw",
-              duration: 0.5,
-              display: "block",
-            });
-            setWindowsBgImg(doorsbgImg);
-            setCurrentCategory(products[1]);
-          }}
-        >
+        <button onClick={() => openCategory(doorsbgImg, 1)}>
           <div
             className="product-item"
             style={{
@@ -88,22 +91,7 @@ const ProductRange = () => {
           </div>
         </button>
 
-        <button
-          onClick={() => {
-            gsap.to(productDetailsRef.current, {
-              width: "30vw",
-              duration: 0.5,
-              display: "block",
-            });
-            gsap.to(productImageRef.current, {
-              width: "70vw",
-              duration: 0.5,
-              display: "block",
-            });
-            setWindowsBgImg(terracesystembgImg);
-            setCurrentCategory(products[2]);
-          }}
-        >
+        <button onClick={() => openCategory(terracesystembgImg, 2)}>
           <div
             className="product-item"
             style={{
@@ -116,22 +104,7 @@ const ProductRange = () => {
           </div>
         </button>
 
-        <button
-          onClick={() => {
-            gsap.to(productDetailsRef.current, {
-              width: "30vw",
-              duration: 0.5,
-              display: "block",
-            });
-            gsap.to(productImageRef.current, {
-              width: "70vw",
-              duration: 0.5,
-              display: "block",
-            });
-            setWindowsBgImg(shuttersbgImg);
-            setCurrentCategory(products[3]);
-          }}
-        >
+        <button onClick={() => openCategory(shuttersbgImg, 3)}>
           <div
             className="product-item"
             style={{
@@ -180,7 +153,18 @@ const ProductRange = () => {
                     </h3>
                     <div className="text-sm flex flex-col gap-4 items-end justify-center">
                       {detail?.items.map((item) => {
-                        return <Link to={item === "IDEAL" ? `/product/IDEAL` : `/product/windows/${item}`} className="mb-1 hover:text-yellow text-right">{item}</Link>;
+                        return (
+                          <Link
+                            to={
+                              item === "IDEAL"
+                                ? `/product/IDEAL`
+                                : `/product/${detail.type}/${item}`
+                            }
+                            className="mb-1 hover:text-yellow text-right"
+                          >
+                            {item}
+                          </Link>
+                        );
                       })}
                     </div>
                   </div>

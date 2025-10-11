@@ -1,6 +1,7 @@
 const windowsData = [
   {
     category: "Fenêtres PVC",
+    type: "windows",
     items: [
       "IGLO EDGE",
       "IGLO Energy",
@@ -16,14 +17,17 @@ const windowsData = [
   },
   {
     category: "Fenêtres en aluminium",
+    type: "windows",
     items: ["MB-86N SI", "MB-79N SI", "MB-70HI", "MB-70", "MB-45"],
   },
   {
     category: "Fenêtres en bois",
+    type: "windows",
     items: ["SOFTLINE - 68, 78, 88"],
   },
   {
     category: "Fenêtres mixtes bois-aluminium",
+    type: "windows",
     items: ["DUOLINE - 68, 78, 88"],
   },
 ];
@@ -31,10 +35,12 @@ const windowsData = [
 const doorsData = [
   {
     category: "Porte d'entrée en PVC",
-    items: ["IGLO ENERGY", "IGLO 5", "IGLO EDGE"],
+    type: "doors",
+    items: ["Iglo Energy", "Iglo 5", "Iglo Edge"],
   },
   {
     category: "Portes en aluminium",
+    type: "doors",
     items: [
       "D-ART Line",
       "MB-86N SI",
@@ -48,6 +54,7 @@ const doorsData = [
   },
   {
     category: "Porte d'entrée en bois",
+    type: "doors",
     items: ["SOFTLINE 68, 78, 88"],
   },
 ];
@@ -55,6 +62,7 @@ const doorsData = [
 const slidingSystemsData = [
   {
     category: "Levant coulissant HS",
+    type: "terracesystems",
     items: [
       "IGLO-HS",
       "IGLO-HS ALUCOVER",
@@ -67,6 +75,7 @@ const slidingSystemsData = [
   },
   {
     category: "Coulissant",
+    type: "terracesystems",
     items: [
       "IGLO EDGE SLIDE",
       "IGLO SLIDE",
@@ -77,18 +86,20 @@ const slidingSystemsData = [
   },
   {
     category: "Accordéon",
-    items: ["MB-86 FOLD LINE HD", "SOFTLINE 86", "IGLO EDGE"],
+    type: "terracesystems",
+    items: ["MB-86 Fold Line HD", "SOFTLINE 68"],
   },
   {
     category: "Oscillo - coulissant PSK",
+    type: "terracesystems",
     items: [
       "IGLO ENERGY PSK",
       "IGLO ENERGY CLASSIC PSK",
       "IGLO 5 PSK",
       "IGLO 5 CLASSIC PSK",
       "IGLO LIGHT PSK",
-      "MB-70/MB-70HI PSK",
-      "SOFTLINE PSK",
+      "MB-70 and MB-70HI PSK",
+      "Softline PSK",
       "DUOLINE PSK",
     ],
   },
@@ -97,10 +108,12 @@ const slidingSystemsData = [
 const shuttersData = [
   {
     category: "Rénovation",
+    type: "shutters",
     items: ["Volets roulants en aluminium"],
   },
   {
     category: "MONOBLOC",
+    type: "shutters",
     items: [
       "Volets roulants en PVC",
       "Volets roulants avec caisson en polystyrène",
@@ -115,14 +128,17 @@ const Products = [
   },
   {
     title: "Porte d'entrée",
+    type: "doors",
     details: doorsData,
   },
   {
     title: "Systèmes coulissants",
+    type: "slidingSystems",
     details: slidingSystemsData,
   },
   {
     title: "Volets roulants",
+    type: "shutters",
     details: shuttersData,
   },
 ];
