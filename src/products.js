@@ -453,7 +453,8 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD MONOBLOCK",
-      detailVideo: "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/detail.png",
+      detailVideo:
+        "./assets/Products/Windows/IDEAL NEO MD MONOBLOCK/detail.png",
       description:
         "Monoblock frames are designed for the construction of windows installed within a layer of insulation. The wide range of Monoblock frame sizes (76 mm, 122 mm, 142 mm, 162 mm) allows for appropriate selection depending on the insulation thickness. A special shelf (window sill) located on the outer side of the frame aesthetically covers the insulation around the window perimeter, preventing thermal bridges. The inner rebate of the Monoblock frame ensures aesthetic installation from the room interior without the need for gypsum finishing.",
       standardEquipment: [],
@@ -478,7 +479,8 @@ const products = [
     },
     detailSection: {
       title: "IDEAL NEO MD RENOVATION",
-      detailVideo: "./assets/Products/Windows/IDEAL NEO MD RENOVATION/detail.png",
+      detailVideo:
+        "./assets/Products/Windows/IDEAL NEO MD RENOVATION/detail.png",
       description:
         "The renovation frame system is designed for window installation without dismantling old frames. This solution uses special renovation frames with a masking profile that surrounds the existing wooden frame, creating a clean inner band. On the exterior, special housing profiles can be applied. The masking profiles are available in different widths (40 mm, 70 mm), and can also be trimmed to fit specific installation requirements.",
       standardEquipment: [],
@@ -1083,7 +1085,7 @@ const products = [
   {
     name: "PIVOT",
     tagline: "Exterior doors with offset pivot",
-    heroVideo: "./assets/Products/Doors/PIVOT/hero.mp4",
+    heroVideo: "./assets/Products/Doors/PIVOT/hero.PNG",
     specs: {
       soundInsulation: null,
       gaskets: null,
@@ -1142,6 +1144,752 @@ const products = [
     structureImages: [
       "./assets/Products/Doors/SOFTLINE/structure1.png",
       "./assets/Products/Doors/SOFTLINE/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO-HS",
+    tagline: "Perfection in every detail",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO-HS/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Uw = 0.71 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "194 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "IGLO-HS",
+      detailVideo: "./assets/Products/TerraceSystems/IGLO-HS/detail.mp4",
+      description:
+        "The IGLO-HS terrace system is a perfect solution for creating large, elegant balcony or terrace glazing that brings light and space into your home. Designed for modern architecture, it combines stunning aesthetics with outstanding thermal efficiency. With an ultra-durable structure supporting leaves up to 400 kg and a low threshold that can be integrated into the floor, it ensures maximum comfort, smooth operation, and excellent functionality.",
+      standardEquipment: [
+        "G-U lift and slide fittings with 3 locking bolts",
+        "Micro-ventilation striker",
+        "Aluminium handle on the inside, recessed grip on the outside",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Swisspacer Ultimate plastic warm frame - as a free elective option",
+        "Internal velour gasket, external EPDM and brush gasket in black",
+        "Frame reinforcement made of high-quality aluminium sections with thermal breaks",
+        "Sash reinforcement: top and vertical - full (closed) steel, 2 mm thick; bottom - steel, channel-shaped, 3 mm thick",
+        "Profile core in white",
+        "System carts with a load capacity of 300 kg",
+        "PVC low threshold with aluminium reinforcement and overlay",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO-HS/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO-HS/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO-HS ALUCOVER",
+    tagline: "Redefining Design Excellence",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO-HS ALUCOVER/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 0.73 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "206 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "IGLO-HS ALUCOVER",
+      detailVideo:
+        "./assets/Products/TerraceSystems/IGLO-HS ALUCOVER/detail.mp4",
+      description:
+        "The IGLO-HS ALUCOVER terrace system combines the superior insulation of PVC with the durability and elegant finish of aluminum. This system redefines design versatility, allowing endless customization with a wide range of colors and finishes to match any architectural style. Perfect for creating large, panoramic glazing that blends beauty, performance, and comfort.",
+      standardEquipment: [
+        "Swisspacer Ultimate edge",
+        "Rectangular glazing bead",
+        "Aluminium handle",
+        "V-Perfect weld",
+        "RAL matt varnish",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO-HS ALUCOVER/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO-HS ALUCOVER/structure2.png",
+    ],
+  },
+  {
+    name: "MB-77HS HI",
+    tagline: "Create your space",
+    heroVideo: "./assets/Products/TerraceSystems/MB-77HS HI/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 1.0 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "174 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-77HS HI",
+      detailVideo: "./assets/Products/TerraceSystems/MB-77HS HI/detail.mp4",
+      description:
+        "The MB-77HS HI aluminium terrace system is the perfect solution for creating large, elegant balcony and terrace glazing that opens interiors to the outside world. Its durable structure supports leaves weighing up to 400 kg, while the low aluminium threshold can be seamlessly built into the floor for effortless access and modern aesthetics. This system offers both stunning looks and excellent thermal performance.",
+      standardEquipment: [
+        "G-U lift and slide fittings with 3 locking bolts",
+        "Micro-ventilation striker",
+        "Aluminium handle on the inside, recessed grip on the outside",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Glass-pane spacer made of galvanised steel",
+        "2 EPDM gaskets in black (external and internal)",
+        "System carts with a load capacity of 300 kg",
+        "48 mm high threshold",
+        "RAL matt color: white (9016), anthracite (7016)",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-77HS HI/structure1.png",
+      "./assets/Products/TerraceSystems/MB-77HS HI/structure2.png",
+    ],
+  },
+  {
+    name: "MB-77HS HI MONORAIL",
+    tagline: "Create your space",
+    heroVideo: "./assets/Products/TerraceSystems/MB-77HS HI MONORAIL/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 0.75 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "174 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-77HS HI MONORAIL",
+      detailVideo:
+        "./assets/Products/TerraceSystems/MB-77HS HI MONORAIL/detail.mp4",
+      description:
+        "The MB-77HS HI MONORAIL 'Lift & Slide' door system is the ideal solution for seamlessly connecting interior spaces or conservatories with terraces, balconies, or gardens. Combining high durability, thermal efficiency, and smooth operation, this monorail version offers sleek design and effortless sliding for large glass surfaces that bring in abundant natural light.",
+      standardEquipment: [
+        "G-U lift and slide fittings with 3 locking bolts",
+        "Micro-ventilation striker",
+        "Aluminium handle on the inside, recessed grip on the outside",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Glass-pane spacer made of galvanised steel",
+        "2 EPDM gaskets in black (external and internal)",
+        "System carts with a load capacity of 300 kg",
+        "48 mm high threshold",
+        "RAL matt color: white (9016), anthracite (7016)",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-77HS HI MONORAIL/structure1.png",
+      "./assets/Products/TerraceSystems/MB-77HS HI MONORAIL/structure2.png",
+    ],
+  },
+  {
+    name: "MB-59HS HI",
+    tagline: "Aesthetics in a new version",
+    heroVideo: "./assets/Products/TerraceSystems/MB-59HS HI/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 1.5 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "120 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-59HS HI",
+      detailVideo: "./assets/Products/TerraceSystems/MB-59HS HI/detail.mp4",
+      description:
+        "The MB-59HS HI Lift & Slide door system is the perfect solution for integrating living spaces, winter gardens, and outdoor areas like terraces or balconies. Designed for maximum comfort and functionality, it provides smooth operation, elegant design, and excellent thermal insulation. Ideal for creating bright, spacious interiors with effortless access to the outdoors.",
+      standardEquipment: [
+        "G-U lift and slide fittings with 3 locking bolts",
+        "Micro-ventilation striker",
+        "Aluminium handle on the inside, recessed grip on the outside",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Glass-pane spacer made of galvanised steel",
+        "2 EPDM gaskets in black (external and internal)",
+        "System carts with a load capacity of 300 kg",
+        "48 mm high threshold",
+        "RAL matt color: white (9016), anthracite (7016)",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-59HS HI/structure1.png",
+      "./assets/Products/TerraceSystems/MB-59HS HI/structure2.png",
+    ],
+  },
+  {
+    name: "SOFTLINE HS",
+    tagline: "Force and beauty of nature",
+    heroVideo: "./assets/Products/TerraceSystems/SOFTLINE HS/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "from Ug = 0.5 W/(m²K)",
+      numberOfChambers: null,
+      installationDepth: "164/184/204 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "SOFTLINE HS",
+      detailVideo: "./assets/Products/TerraceSystems/SOFTLINE HS/detail.mp4",
+      description:
+        "The SOFTLINE HS wooden lift and slide terrace door system is crafted for large-size glazing, ensuring interiors are filled with natural light. Advanced manufacturing technology guarantees exceptional aesthetics, durability, and comfort. It harmoniously combines the timeless beauty of wood with modern design and performance.",
+      standardEquipment: [
+        "2 EPDM gaskets",
+        "High-quality laminated wood profiles available in multiple depths (164/184/204 mm)",
+        "Excellent glass thermal insulation from Ug = 0.5 W/(m²K)",
+        "Smooth and quiet lift & slide operation",
+        "Durable aluminium threshold with a thermal break",
+        "Wide range of paint finishes (azure and opaque)",
+        "Optional aluminium cladding for enhanced protection",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/SOFTLINE HS/structure1.png",
+      "./assets/Products/TerraceSystems/SOFTLINE HS/structure2.png",
+    ],
+  },
+  {
+    name: "DUOLINE HS",
+    tagline: "Classic and modern",
+    heroVideo: "./assets/Products/TerraceSystems/DUOLINE HS/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "from Ug = 0.5 W/(m²K)",
+      numberOfChambers: null,
+      installationDepth: "194/214/234 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "DUOLINE HS",
+      detailVideo: "./assets/Products/TerraceSystems/DUOLINE HS/detail.mp4",
+      description:
+        "The DUOLINE HS lift and slide terrace door system combines the natural beauty of wood with the durability and design versatility of aluminium. It is an elegant and energy-efficient solution for large-scale glazing, ensuring abundant daylight and a refined aesthetic for modern interiors.",
+      standardEquipment: [
+        "3 EPDM gaskets for optimal tightness and insulation",
+        "High-quality wood profiles with aluminium cladding",
+        "Excellent glass thermal insulation from Ug = 0.5 W/(m²K)",
+        "Smooth lift & slide mechanism for effortless operation",
+        "Durable aluminium threshold with thermal break",
+        "Wide palette of over 200 RAL colours for the aluminium exterior",
+        "Dozens of opaque and stain finishes for the wooden interior",
+        "Optional decorative and custom handle finishes",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/DUOLINE HS/structure1.png",
+      "./assets/Products/TerraceSystems/DUOLINE HS/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO EDGE SLIDE",
+    tagline: "Technology That Impresses",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO EDGE SLIDE/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Uw = 0.65 W/(m²K)*",
+      numberOfChambers: 6,
+      installationDepth: "163 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "IGLO EDGE SLIDE",
+      detailVideo:
+        "./assets/Products/TerraceSystems/IGLO EDGE SLIDE/detail.mp4",
+      description:
+        "The IGLO EDGE SLIDE system represents the next generation of sliding terrace doors. It combines modern, angular design with cutting-edge PVC technology to achieve outstanding thermal performance and a sleek, contemporary look. Designed for comfort, durability, and energy efficiency, it enhances every living space with elegance and functionality.",
+      standardEquipment: [
+        "Double-chamber glazing package Ug = 0.5 W/(m²K)",
+        "Swisspacer Ultimate warm edge for improved insulation",
+        "V-Perfect weld for flawless corner finish",
+        "Perimeter and glazing gaskets in black or grey",
+        "Central gasket in black for additional sealing",
+        "Wide selection of PVC veneer colours",
+        "Aluminium handle on the inside",
+        "Aluminium pull handle on the outside",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO EDGE SLIDE/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO EDGE SLIDE/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO SLIDE",
+    tagline: "Bet on proven solutions",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO SLIDE/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "Black gaskets with brush sealing",
+      thermalTransmittance: "Ug = 1.1 W/(m²K)",
+      numberOfChambers: 3,
+      installationDepth: "82 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "IGLO SLIDE",
+      detailVideo: "./assets/Products/TerraceSystems/IGLO SLIDE/detail.mp4",
+      description:
+        "The IGLO SLIDE system is designed for producing terrace doors and sliding windows that combine functionality, durability, and ease of use. Perfect for spaces where traditional window and door solutions cannot be used, it provides long-term reliability and comfort. Ideal for interiors not requiring high thermal insulation values, it offers a modern solution with refined aesthetics.",
+      standardEquipment: [
+        "Siegenia system fittings with height-adjustable carts",
+        "3 types of aluminium handles",
+        "24 mm glazing package, 2-glazed (1-chamber) filled with argon gas, with Ug = 1.1 W/(m²K)",
+        "Galvanised steel spacer",
+        "V-Perfect weld for seamless corner finish",
+        "Brush sealing for smooth operation and protection",
+        "Black gaskets for a refined aesthetic",
+        "2 mm steel reinforcement for frame and sash",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO SLIDE/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO SLIDE/structure2.png",
+    ],
+  },
+  {
+    name: "MB-SLIDE",
+    tagline: "Bet on proven solutions",
+    heroVideo: "./assets/Products/TerraceSystems/MB-SLIDE/hero.PNG",
+    specs: {
+      soundInsulation: null,
+      gaskets: null,
+      thermalTransmittance: null,
+      numberOfChambers: null,
+      installationDepth: "50 mm / 97 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-SLIDE",
+      detailVideo: "./assets/Products/TerraceSystems/MB-SLIDE/detail.mp4",
+      description:
+        "The MB-SLIDE system is designed for constructing thermally insulated sliding doors and windows. Thanks to its unique construction, it can be integrated into brick walls, aluminium façades, winter gardens, or casement elements. It provides excellent durability, smooth operation, and modern functionality for versatile architectural designs. Maximum leaf dimensions: height up to 2500 mm, width up to 1800 mm, and a maximum weight of 160 kg.",
+      standardEquipment: [
+        "Thermally insulated aluminium profiles",
+        "Sliding system compatible with brick walls, façades, and winter gardens",
+        "Smooth and durable sliding mechanism",
+        "Maximum leaf dimensions: H 2500 mm, L 1800 mm",
+        "Maximum leaf weight: 160 kg",
+        "Option to integrate with façade or casement systems",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-SLIDE/structure1.png",
+      "./assets/Products/TerraceSystems/MB-SLIDE/structure2.png",
+    ],
+  },
+  {
+    name: "COR VISION",
+    tagline: "The beauty of minimalism",
+    heroVideo: "./assets/Products/TerraceSystems/COR VISION/hero.PNG",
+    specs: {
+      soundInsulation: "dB = 41",
+      gaskets: null,
+      thermalTransmittance: "Uw = 1,3 W/(m²K)*",
+      numberOfChambers: null,
+      installationDepth: "116 mm / 182 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "COR VISION",
+      detailVideo: "./assets/Products/TerraceSystems/COR VISION/detail.PNG",
+      description:
+        "The COR VISION minimalist sliding system with a thermal baffle delivers maximum interior illumination with a nearly invisible aluminium structure. The mullion width is only 20 mm, ensuring a sleek and elegant design. It offers the option of fully hiding the frame, allowing light and aesthetics to dominate the space while maintaining excellent energy efficiency and sound insulation.",
+      standardEquipment: [
+        "Minimalist aluminium sliding system with thermal baffle",
+        "Extremely narrow 20 mm mullion for maximum glass area",
+        "Option to conceal the frame within the structure",
+        "High sound insulation up to 41 dB",
+        "Thermal transmittance Uw = 1.3 W/(m²K)*",
+        "Glass packages 26–30 mm thick for optimal insulation",
+        "Smooth and durable sliding mechanism",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/COR VISION/structure1.png",
+      "./assets/Products/TerraceSystems/COR VISION/structure2.png",
+    ],
+  },
+  {
+    name: "COR VISION PLUS",
+    tagline: "The beauty of minimalism",
+    heroVideo: "./assets/Products/TerraceSystems/COR VISION PLUS/hero.PNG",
+    specs: {
+      soundInsulation: "dB = 43",
+      gaskets: null,
+      thermalTransmittance: "Uw = 0,9 W/(m²K)*",
+      numberOfChambers: null,
+      installationDepth: "180 mm / 278 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "COR VISION PLUS",
+      detailVideo:
+        "./assets/Products/TerraceSystems/COR VISION PLUS/detail.PNG",
+      description:
+        "The COR VISION PLUS system embodies the greatness of minimalism. Designed for large-format sliding doors with sashes up to 4 meters high, it combines refined aesthetics with advanced thermal and acoustic performance. Its interlock sightline is only 25 mm, and frames can be embedded into the perimeter to achieve up to 94% glazed surface. With manual or motorized operation, it ensures comfort, style, and smooth functionality in every movement.",
+      standardEquipment: [
+        "Large-format minimalist sliding system with thermal break",
+        "Interlock sightline of only 25 mm for an elegant, modern look",
+        "Frames embedded into the perimeter for up to 94% glazed area",
+        "Sound insulation up to 43 dB",
+        "Thermal transmittance Uw = 0.9 W/(m²K)*",
+        "Glazing capacity up to 54 mm",
+        "Manual operation up to 400 kg or motorized up to 700 kg",
+        "Hidden rail option for a fully integrated floor connection",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/COR VISION PLUS/structure1.png",
+      "./assets/Products/TerraceSystems/COR VISION PLUS/structure2.png",
+    ],
+  },
+  {
+    name: "MB-86 Fold Line HD",
+    tagline: "Modern folding system for spacious and bright interiors",
+    heroVideo: "./assets/Products/TerraceSystems/MB-86 Fold Line HD/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 1,1 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "86 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "MB-86 Fold Line HD",
+      detailVideo:
+        "./assets/Products/TerraceSystems/MB-86 Fold Line HD/detail.mp4",
+      description:
+        "The MB-86 Fold Line HD system is a perfect solution for large-format glazing such as balconies or terraces. It combines exceptional thermal insulation, modern design, and high durability. The folding mechanism ensures maximum opening space and versatility, making it ideal for both residential and commercial applications.",
+      standardEquipment: [
+        "Durable aluminium folding door system for large-size openings",
+        "System fittings for smooth and reliable operation",
+        "Hinge covers available in white, silver, and black",
+        "Aluminium handle for sleek aesthetics and durability",
+        "3-glazed (2-chamber) units filled with argon gas with Ug = 0.5 W/(m²K)",
+        "Galvanised steel glass-pane spacer for improved insulation",
+        "2 EPDM gaskets (external and internal) available in black",
+        "RAL matt colors: white (9016), anthracite (7016)",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-86 Fold Line HD/structure1.png",
+      "./assets/Products/TerraceSystems/MB-86 Fold Line HD/structure2.png",
+    ],
+  },
+  {
+    name: "SOFTLINE 68",
+    tagline: "Classic wooden folding doors with modern performance",
+    heroVideo: "./assets/Products/TerraceSystems/SOFTLINE 68/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 Gaskets",
+      thermalTransmittance: "Uw = 1,04 W/(m²K)*",
+      numberOfChambers: null,
+      installationDepth: "68 mm",
+      profileClass: null,
+    },
+    detailSection: {
+      title: "SOFTLINE 68",
+      detailVideo: "./assets/Products/TerraceSystems/SOFTLINE 68/detail.mp4",
+      description:
+        "The SOFTLINE 68 folding door system combines the timeless elegance of wood with advanced technology to create a durable and visually stunning design. It provides excellent thermal insulation and allows maximum daylight into interiors, making it ideal for both classic and contemporary spaces.",
+      standardEquipment: [
+        "High-quality wooden folding door system with advanced design",
+        "2 durable sealing gaskets ensuring great insulation and soundproofing",
+        "Installation depth of 68 mm for reliable stability",
+        "Classic wooden aesthetics combined with modern functionality",
+        "Efficient thermal insulation with Uw = 1.04 W/(m²K)*",
+        "Folding mechanism for smooth and space-saving operation",
+        "Ideal for terraces, balconies, and wide openings",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/SOFTLINE 68/structure1.png",
+      "./assets/Products/TerraceSystems/SOFTLINE 68/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO ENERGY PSK",
+    tagline: "Transform your space",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO ENERGY PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,65 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "82 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "IGLO ENERGY PSK",
+      detailVideo:
+        "./assets/Products/TerraceSystems/IGLO ENERGY PSK/detail.mp4",
+      description:
+        "The IGLO ENERGY PSK is a 7-chamber tilt and slide terrace system designed to deliver exceptional energy efficiency and modern aesthetics. Its innovative structure and advanced insulation technologies make it a perfect choice for homes seeking lower heating costs and superior comfort.",
+      standardEquipment: [
+        "MACO SKB-S System Standard fittings for window sashes weighing up to 160 kg",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Profile core in white",
+        "Galvanised steel glass-pane spacer with optional Swisspacer Ultimate spacer",
+        "2 EPDM gaskets in black (external and internal) + 1 central gasket made of foamed EPDM",
+        "Gasket filling the lower fittings groove",
+        "2 mm full (closed) steel frame reinforcement and 'C'-shaped steel sash reinforcement",
+        "Aluminium handle",
+        "Rail cover available in 4 colours: silver, white, light brown, and brown",
+        "5-chamber PVC under-sill trim with a gasket",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO ENERGY PSK/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO ENERGY PSK/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO ENERGY CLASSIC PSK",
+    tagline: "Enjoy every ray of sunlight",
+    heroVideo:
+      "./assets/Products/TerraceSystems/IGLO ENERGY CLASSIC PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,66 W/(m²K)*",
+      numberOfChambers: 7,
+      installationDepth: "82 mm",
+      profileClass: "A",
+    },
+    detailSection: {
+      title: "IGLO ENERGY CLASSIC PSK",
+      detailVideo:
+        "./assets/Products/TerraceSystems/IGLO ENERGY CLASSIC PSK/detail.mp4",
+      description:
+        "The IGLO ENERGY CLASSIC PSK is a 7-chamber tilt and slide system with a Class A profile made exclusively from virgin materials. This proprietary system allows maximum daylight into both large and small rooms while maintaining excellent thermal insulation, helping to reduce heating costs significantly.",
+      standardEquipment: [
+        "MACO SKB-S System Standard fittings for window sashes weighing up to 160 kg",
+        "3-glazed (2-chamber) units infilled with argon gas, with Ug = 0.5 W/(m²K)",
+        "Profile core in white",
+        "Galvanised steel glass-pane spacer with optional Swisspacer Ultimate spacer",
+        "2 EPDM gaskets in black (external and internal) + 1 central gasket made of foamed EPDM",
+        "Gasket filling the lower fittings groove",
+        "2 mm full (closed) steel frame reinforcement and 'C'-shaped steel sash reinforcement",
+        "Aluminium handle",
+        "Rail cover available in 4 colours: silver, white, light brown, and brown",
+        "5-chamber PVC under-sill trim with a gasket",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO ENERGY CLASSIC PSK/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO ENERGY CLASSIC PSK/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO5 PSK",
+    tagline: "Choose modern and proven solutions",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO5 PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,81 W/(m²K)*",
+      numberOfChambers: 5,
+      installationDepth: "70 mm",
+    },
+    detailSection: {
+      title: "IGLO5 PSK",
+      detailVideo: "./assets/Products/TerraceSystems/IGLO5 PSK/detail.mp4",
+      description:
+        "The IGLO 5 PSK tilt and slide terrace system ensures optimal daylight for both small and large rooms. Distinguished by its strong thermal insulation and durable structure, it offers various options for customisation to match different architectural styles.",
+      standardEquipment: [
+        "MACO SKB-S System Standard fittings for window sashes weighing up to 160 kg",
+        "2-glazed (1-chamber) units infilled with argon gas, with Ug = 1.1 W/(m²K)",
+        "Rail cover available in 4 colours: silver, white, light brown, and brown",
+        "Profile core in white",
+        "Galvanised steel glass-pane spacer with optional Swisspacer Ultimate spacer",
+        "Frame profile height 75 mm",
+        "2 EPDM gaskets in black (external and internal)",
+        "Gasket filling the lower fittings groove",
+        "1.5 mm full (closed) steel frame reinforcement and 2 mm 'C'-shaped steel sash reinforcement",
+        "Aluminium handle, available with key option",
+        "5-chamber PVC under-sill trim with gasket",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO5 PSK/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO5 PSK/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO 5 CLASSIC PSK",
+    tagline: "Proven quality",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO 5 CLASSIC PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,81 W/(m²K)*",
+      numberOfChambers: 5,
+      installationDepth: "24-40 mm",
+    },
+    detailSection: {
+      title: "IGLO 5 CLASSIC PSK",
+      detailVideo:
+        "./assets/Products/TerraceSystems/IGLO 5 CLASSIC PSK/detail.mp4",
+      description:
+        "A perfect solution that provides ample daylight for both small and large rooms while maintaining excellent thermal insulation. The IGLO 5 CLASSIC PSK combines modern functionality with proven durability, ensuring long-lasting performance and comfort.",
+      standardEquipment: [
+        "MACO SKB-S System Standard fittings for window sashes weighing up to 160 kg",
+        "2-glazed (1-chamber) units infilled with argon gas, with Ug = 1.1 W/(m²K)",
+        "Rail cover available in 4 colours: silver, white, light brown, and brown",
+        "Profile core in white",
+        "Galvanised steel glass-pane spacer with optional Swisspacer Ultimate spacer",
+        "Frame profile height 75 mm",
+        "2 EPDM gaskets in black (external and internal)",
+        "Gasket filling the lower fittings groove",
+        "1.5 mm full (closed) steel frame reinforcement and 2 mm 'C'-shaped steel sash reinforcement",
+        "Aluminium handle, available with key option",
+        "5-chamber PVC under-sill trim with gasket",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO 5 CLASSIC PSK/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO 5 CLASSIC PSK/structure2.png",
+    ],
+  },
+  {
+    name: "IGLO LIGHT PSK",
+    tagline: "Even more daylight",
+    heroVideo: "./assets/Products/TerraceSystems/IGLO LIGHT PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,84 W/(m²K)*",
+      numberOfChambers: 5,
+      installationDepth: "70 mm",
+    },
+    detailSection: {
+      title: "IGLO LIGHT PSK",
+      detailVideo: "./assets/Products/TerraceSystems/IGLO LIGHT PSK/detail.mp4",
+      description:
+        "A unique terrace system designed to provide maximum daylight while maintaining excellent energy efficiency. IGLO LIGHT PSK combines a sleek design with reliable functionality, offering great comfort and visual appeal for modern spaces.",
+      standardEquipment: [
+        "MACO SKB-S System Standard fittings for window sashes weighing up to 160 kg",
+        "2-glazed (1-chamber) units infilled with argon gas, with Ug = 1.1 W/(m²K)",
+        "Rail cover available in 4 colours: silver, white, light brown, and brown",
+        "Profile core in white",
+        "Galvanised steel glass-pane spacer with optional Swisspacer Ultimate spacer",
+        "Frame profile height 75 mm",
+        "2 EPDM gaskets in black (external and internal)",
+        "Gasket filling the lower fittings groove",
+        "1.5 mm full (closed) steel frame reinforcement and 2 mm 'C'-shaped steel sash reinforcement",
+        "Aluminium handle, available with key option",
+        "5-chamber PVC under-sill trim with gasket",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/IGLO LIGHT PSK/structure1.png",
+      "./assets/Products/TerraceSystems/IGLO LIGHT PSK/structure2.png",
+    ],
+  },
+  {
+    name: "MB-70 and MB-70HI PSK",
+    tagline: "Perfection in every detail",
+    heroVideo:
+      "./assets/Products/TerraceSystems/MB-70 and MB-70HI PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 EPDM gaskets",
+      thermalTransmittance: "Uw = 0,8 W/(m²K)*",
+      numberOfChambers: 3,
+      installationDepth: "70 mm",
+      glassThermalInsulation: "24-53 mm",
+    },
+    detailSection: {
+      title: "MB-70 and MB-70HI PSK",
+      detailVideo:
+        "./assets/Products/TerraceSystems/MB-70 and MB-70HI PSK/detail.mp4",
+      description:
+        "A terrace system designed to transform interiors and highlight the architectural character of any building. MB-70 and MB-70HI PSK offer excellent performance, durability, and customisation options appreciated by customers worldwide. These systems combine elegant design with advanced insulation and functionality.",
+      standardEquipment: [
+        "High-quality aluminium profile system",
+        "3 EPDM gaskets for superior insulation and sealing",
+        "Glass packages with thermal insulation from Ug = 0.8 W/(m²K)*",
+        "Installation depth of 70 mm",
+        "Compatible with glazing thicknesses of 24–53 mm",
+        "Durable and smooth operating tilt and slide mechanism",
+        "Aluminium handle with aesthetic design",
+        "Option for enhanced insulation in the HI version for improved energy efficiency",
+        "Wide range of RAL colours available",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/MB-70 and MB-70HI PSK/structure1.png",
+      "./assets/Products/TerraceSystems/MB-70 and MB-70HI PSK/structure2.png",
+    ],
+  },
+  {
+    name: "Softline PSK",
+    tagline: "Force and beauty of nature",
+    heroVideo: "./assets/Products/TerraceSystems/Softline PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "2 gaskets",
+      thermalTransmittance: "Uw = 0,73 - 1,06 W/(m²K)*",
+      numberOfChambers: null,
+      installationDepth: "68/78/88 mm",
+      glassThermalInsulation: null,
+    },
+    detailSection: {
+      title: "Softline PSK",
+      detailVideo: "./assets/Products/TerraceSystems/Softline PSK/detail.mp4",
+      description:
+        "This wooden lift and slide terrace door is designed for large-size glazing to provide abundant daylight and warmth. Manufactured using advanced production technology, the Softline PSK system offers exceptional aesthetics, durability, and craftsmanship — showcasing the natural strength and elegance of wood.",
+      standardEquipment: [
+        "High-quality laminated wood construction (68/78/88 mm thickness)",
+        "2 durable gaskets ensuring excellent sealing",
+        "Thermal transmittance Uw = 0.73–1.06 W/(m²K)*",
+        "Smooth sliding and lift mechanism for easy operation",
+        "Aluminium threshold with thermal break for improved insulation",
+        "Available in multiple wood finishes and stain options",
+        "Customisable glazing and handle options",
+        "Eco-friendly coating options ensuring durability and resistance",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/Softline PSK/structure1.png",
+      "./assets/Products/TerraceSystems/Softline PSK/structure2.png",
+    ],
+  },
+  {
+    name: "DUOLINE PSK",
+    tagline: "Classic harmony of wood and aluminium",
+    heroVideo: "./assets/Products/TerraceSystems/DUOLINE PSK/hero.mp4",
+    specs: {
+      soundInsulation: null,
+      gaskets: "3 gaskets",
+      thermalTransmittance: "Uw = 0,71–0,93 W/(m²K)*",
+      numberOfChambers: null,
+      installationDepth: "82/92 mm",
+      glassThermalInsulation: null,
+    },
+    detailSection: {
+      title: "DUOLINE PSK",
+      detailVideo: "./assets/Products/TerraceSystems/DUOLINE PSK/detail.mp4",
+      description:
+        "A unique tilt and slide door system combining the natural warmth of wood with the durability of aluminium. The DUOLINE PSK system impresses with its elegant design, excellent insulation, and superior craftsmanship — creating a perfect balance between modern performance and timeless aesthetics.",
+      standardEquipment: [
+        "High-quality wood and aluminium hybrid structure",
+        "3 durable gaskets for enhanced sealing and insulation",
+        "Thermal transmittance Uw = 0.71–0.93 W/(m²K)*",
+        "Tilt and slide functionality for smooth operation and space efficiency",
+        "Aluminium threshold with thermal break for improved insulation",
+        "Available in a wide range of RAL colours and wood finishes",
+        "Customisable glazing packages for additional energy efficiency",
+        "Premium aluminium handle and modern design details",
+      ],
+    },
+    structureImages: [
+      "./assets/Products/TerraceSystems/DUOLINE PSK/structure1.png",
+      "./assets/Products/TerraceSystems/DUOLINE PSK/structure2.png",
     ],
   },
 ];
