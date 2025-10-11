@@ -25,7 +25,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-sm leading-relaxed">
-            Axlium Menuiseries est une entreprise familiale basée à Dunkerque,
+            Axelium Menuiseries est une entreprise familiale basée à Dunkerque,
             France, spécialisée dans la menuiserie sur mesure, la rénovation et
             l'installation.
           </p>
@@ -119,7 +119,7 @@ export default function Footer() {
 
       {/* Copyright Bar */}
       <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} Axlium Menuiseries — Conçu par{" "}
+        © {new Date().getFullYear()} Axelium Menuiseries — Conçu par{" "}
         <span className="text-blue-600 font-semibold">Muhammad Jalal</span>
       </div>
     </footer>

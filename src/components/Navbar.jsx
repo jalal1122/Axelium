@@ -38,16 +38,16 @@ const Navbar = () => {
     <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
       <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
-        <div className="flex justify-center items-center gap-4 p-2">
           <Link to="/">
+        <div className="flex justify-center items-center gap-4 p-2">
             <img src="/logo.svg" alt="Logo" className="w-15" />
             <img
               src="/logo_text.svg"
-              alt="Logo Text"
-              className="relative hidden top-1 sm:w-30"
+              alt="Logo Text" 
+              className="relative hidden top-1 sm:w-30 sm:inline-block"
             />
-          </Link>
         </div>
+          </Link>
 
         {/* Nav Links Side */}
         <div className="hidden lg:flex gap-8 text-white text-lg font-medium ">
