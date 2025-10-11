@@ -43,9 +43,9 @@ const Detail = ({ product }) => {
   const { src, type } = resolveMedia();
 
   return (
-    <section className="bg-[#F4F2F3] w-full flex justify-center items-center">
+    <section className="bg-[#F4F2F3] w-full flex flex-col md:flex-row justify-center items-center">
       {/* Detail Info Section */}
-      <div className="w-1/2 h-full bg-white flex flex-col justify-center items-start gap-4 p-8">
+      <div className="w-full md:w-1/2 h-full bg-white flex flex-col justify-center items-start gap-4 p-8">
         {/* title */}
         {product?.detailSection?.title && (
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
@@ -74,7 +74,7 @@ const Detail = ({ product }) => {
       </div>
 
       {/* Detail Video Section */}
-      <div className="w-1/2 bg-white">
+      <div className="w-full md:w-1/2 bg-white">
         {type === "video" ? (
           <>
             <video
