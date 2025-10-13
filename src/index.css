@@ -135,12 +135,12 @@
 
   /* Product Page Styles */
   .hero-section {
-    @apply h-[90vh] w-full relative flex justify-center items-center text-white font-bold;
+    @apply h-[50vh] sm:h-[90vh] w-full relative flex justify-center items-center text-white font-bold;
   }
 
 
   .hero-specs-items{
-    @apply w-fit text-xl md:text-2xl lg:text-3xl font-bold border-2 border-yellow px-2 py-1 md:px-4 md:py-2 rounded-md;
+    @apply w-fit text-lg md:text-2xl lg:text-3xl font-bold border-2 border-yellow px-2 py-1 md:px-4 md:py-2 rounded-md;
   }
 
   .custom-list {
