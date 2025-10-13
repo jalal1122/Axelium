@@ -1,7 +1,7 @@
 import reliableImg from "../../assets/TrustSection/reliable.png";
 import fabricatonImg from "../../assets/TrustSection/fabrication.png";
 import customerserviceImg from "../../assets/TrustSection/customerservice.jpg";
-import productionImg from "../../assets/TrustSection/production.png";
+// import productionImg from "../../assets/TrustSection/production.png";
 
 export default function TrustSection() {
   const trustCards = [
@@ -10,11 +10,11 @@ export default function TrustSection() {
       desc: "Chaque produit est conçu selon vos besoins et vos dimensions.",
       img: fabricatonImg,
     },
-    {
-      title: "10 ans d'expérience en France",
-      desc: "Une décennie d'expertise et de confiance au service de nos clients en France.",
-      img: productionImg,
-    },
+    // {
+    //   title: "10 ans d'expérience en France",
+    //   desc: "Une décennie d'expertise et de confiance au service de nos clients en France.",
+    //   img: productionImg,
+    // },
     {
       title: "Service client réactif",
       desc: "Une équipe à votre écoute pour tout accompagnement.",
@@ -38,7 +38,7 @@ export default function TrustSection() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0">
         {trustCards.map((card, i) => (
           <div
             key={i}

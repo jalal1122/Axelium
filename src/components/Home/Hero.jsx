@@ -30,7 +30,7 @@ export default function Hero() {
     <section className="relative w-full h-screen">
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop={true}
         effect="fade"
         // pagination={{ clickable: true }}

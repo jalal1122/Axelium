@@ -7,6 +7,7 @@ export default function About() {
         {/* Left: Image */}
         <div className="md:w-1/2" data-aos="fade-right">
           <img
+            fetchPriority="high"
             src="./workshop.jpg"
             alt="Axlium Menuiseries Workshop"
             className="rounded-2xl shadow-lg object-cover w-full h-[400px]"
