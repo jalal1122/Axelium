@@ -17,7 +17,7 @@ export default function About() {
         {/* Right: Text */}
         <div className="md:w-1/2" data-aos="fade-left">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            About Axelium Menuiseries
+            Axelium Menuiseries
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             Axelium Menuiseries est une entreprise basée à Dunkerque, dans le
@@ -29,7 +29,7 @@ export default function About() {
             fiabilité et satisfaction à nos clients.
           </p>
           <Link to="/contact" className="button-special text-xl font-bold">
-            Contact Us
+            Contactez-nous
           </Link>
         </div>
       </div>
