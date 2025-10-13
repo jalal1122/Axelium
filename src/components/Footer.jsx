@@ -25,9 +25,12 @@ export default function Footer() {
             />
           </div>
           <p className="text-sm leading-relaxed">
-            Axelium Menuiseries est une entreprise familiale basée à Dunkerque,
-            France, spécialisée dans la menuiserie sur mesure, la rénovation et
-            l'installation.
+            Axelium Menuiseries est une entreprise basée à Dunkerque, en France,
+            spécialisée dans la menuiserie sur mesure, la rénovation et
+            l&rsquo;installation. Elle offre des solutions complètes et
+            personnalisées, alliant expertise technique, qualité des matériaux
+            et excellence du service, pour répondre aux exigences de chaque
+            projet.
           </p>
         </div>
 
@@ -100,7 +103,7 @@ export default function Footer() {
           </ul>
 
           {/* Socials */}
-          <div className="flex gap-4 mt-4">
+          {/* <div className="flex gap-4 mt-4">
             <a
               href="#"
               className="bg-yellow hover:bg-gray-900 border hover:border border-gray-1200 p-2 rounded-full text-white"
@@ -113,7 +116,7 @@ export default function Footer() {
             >
               <FaInstagram />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
