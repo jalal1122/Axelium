@@ -73,17 +73,17 @@ const Hero = ({ product }) => {
       <div className="absolute z-11 w-full h-full flex flex-col justify-end items-center pb-10 text-white">
         <div className="flex flex-col justify-center items-center gap-3">
           {/* Product Name */}
-          <h1 className="text-5xl">{product?.name}</h1>
+          <h1 className="text-3xl md:text-5xl">{product?.name}</h1>
 
           {/* Product Tagline */}
-          {product?.tagline && <h4 className="text-2xl">{product?.tagline}</h4>}
+          {product?.tagline && <h4 className="text-xl md:text-2xl text-center">{product?.tagline}</h4>}
 
           {/* Specs */}
           <div className="flex flex-wrap gap-5 justify-center items-center mt-4">
             {/* Sound Insulation */}
             {product?.specs?.soundInsulation && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.soundInsulation}
                 </span>
                 <span className="text-sm">SOUND INSULATION</span>
@@ -93,7 +93,7 @@ const Hero = ({ product }) => {
             {/* gaskets */}
             {product?.specs?.gaskets && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.gaskets}
                 </span>
                 <span className="text-sm">GASKETS</span>
@@ -103,7 +103,7 @@ const Hero = ({ product }) => {
             {/* thermalTransmittance */}
             {product?.specs?.thermalTransmittance && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.thermalTransmittance}
                 </span>
                 <span className="text-sm">THERMAL TRANSMITTANCE</span>
@@ -113,7 +113,7 @@ const Hero = ({ product }) => {
             {/* numberOfChambers */}
             {product?.specs?.numberOfChambers && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.numberOfChambers}
                 </span>
                 <span className="text-sm">NUMBER OF CHAMBERS</span>
@@ -123,7 +123,7 @@ const Hero = ({ product }) => {
             {/* installationDepth */}
             {product?.specs?.installationDepth && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.installationDepth}
                 </span>
                 <span className="text-sm">INSTALLATION DEPTH</span>
@@ -133,7 +133,7 @@ const Hero = ({ product }) => {
             {/* profileClass */}
             {product?.specs?.profileClass && (
               <div className="flex flex-col items-center gap-3">
-                <span className="text-3xl font-bold border-2 border-yellow px-4 py-2 rounded-md">
+                <span className="hero-specs-items">
                   {product.specs.profileClass}
                 </span>
                 <span className="text-sm">PROFILE CLASS</span>

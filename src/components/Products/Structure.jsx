@@ -27,7 +27,6 @@ const Structure = ({ product }) => {
       {list.length > 0 &&
         list.map((p, i) => {
           const src = resolveImage(p);
-          console.log(src);
           if (!src) return null;
           return (
             <img

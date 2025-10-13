@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from "react-router";
+import { NavLink, useNavigate, Link } from "react-router";
 import { FaHome, FaBars } from "react-icons/fa";
 import { FaBoxOpen } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -11,7 +11,6 @@ import windowsSvg from "../assets/MegaMunuSvg/windows.svg";
 import doorsSvg from "../assets/MegaMunuSvg/doors.svg";
 import terraceSystemsSvg from "../assets/MegaMunuSvg/terracesystem.svg";
 import shuttersSvg from "../assets/MegaMunuSvg/shutters.svg";
-import { Link } from "react-router";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -34,20 +33,42 @@ const Navbar = () => {
 
   gsap.registerPlugin(useGSAP);
 
+  const closeMenus = (tabRef) => {
+    gsap.to(tabRef.current, {
+      x: "100%",
+      duration: 0.3,
+      overflowY: "hidden",
+    });
+
+    gsap.to(mobileMegaMenu.current, {
+      x: "100%",
+      duration: 0.3,
+      delay: 0.3,
+      overflowY: "hidden",
+    });
+
+    gsap.to(mobileMenuRef.current, {
+      x: "100%",
+      duration: 0.2,
+      delay: 0.5,
+      overflowY: "auto",
+    });
+  };
+
   return (
     <header className="w-full sticky top-0 z-50 flex flex-col shadow-lg">
       <nav className="bg-black flex gap-5 justify-around items-center">
         {/* Nav Logo Side */}
-          <Link to="/">
-        <div className="flex justify-center items-center gap-4 p-2">
+        <Link to="/">
+          <div className="flex justify-center items-center gap-4 p-2">
             <img src="/logo.svg" alt="Logo" className="w-15" />
             <img
               src="/logo_text.svg"
-              alt="Logo Text" 
+              alt="Logo Text"
               className="relative hidden top-1 sm:w-30 sm:inline-block"
             />
-        </div>
-          </Link>
+          </div>
+        </Link>
 
         {/* Nav Links Side */}
         <div className="hidden lg:flex gap-8 text-white text-lg font-medium ">
@@ -86,7 +107,7 @@ const Navbar = () => {
             gsap.to(mobileMenuRef.current, {
               x: 0,
               duration: 0.5,
-              overflowY: "none",
+              overflowY: "hidden",
             });
           }}
         >
@@ -244,69 +265,124 @@ const Navbar = () => {
           <li className="mobile-menu-heading !mt-13">Fenêtres PVC</li>
 
           <li>
-            <Link to="/product/windows/IGLO EDGE" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO EDGE");
+                closeMenus(windowsMenuRef);
+              }}
+              // to="/product/windows/IGLO EDGE"
+              className="mobile-menu-item"
+            >
               <span>IGLO EDGE</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/windows/IGLO Energy"
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO Energy");
+                closeMenus(windowsMenuRef);
+              }}
+              // to="/product/windows/IGLO Energy"
               className="mobile-menu-item"
             >
               <span>IGLO Energy</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/windows/IGLO Energy Classic"
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO Energy Classic");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO Energy Classic</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/windows/IGLO ENERGY ALUCOVER"
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO ENERGY ALUCOVER");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO ENERGY ALUCOVER</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/IGLO 5" className="mobile-menu-item">
-              <span>IGLO 5</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/product/windows/IGLO 5 Classic"
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO 5");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
+            >
+              <span>IGLO 5</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO 5 Classic");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO 5 Classic</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/IGLO Light" className="mobile-menu-item">
-              <span>IGLO Light</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/windows/IGLO EXT" className="mobile-menu-item">
-              <span>IGLO EXT</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/product/windows/IGLO PREMIER"
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO Light");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
+            >
+              <span>IGLO Light</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO EXT");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>IGLO EXT</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/windows/IGLO PREMIER");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO PREMIER</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/IDEAL" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/IDEAL");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>IDEAL</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -314,29 +390,64 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Fenêtres en aluminium</li>
 
           <li>
-            <Link to="/product/windows/MB-86N SI" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/MB-86N SI");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>MB-86N SI</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/MB-79N SI" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/MB-79N SI");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>MB-79N SI</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/MB-70HI" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/MB-70HI");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>MB-70HI</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/MB-70" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/MB-70");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>MB-70</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/windows/MB-45" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/windows/MB-45");
+                closeMenus(windowsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>MB-45</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -344,12 +455,16 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Fenêtres en bois</li>
 
           <li>
-            <Link
-              to="/product/windows/SOFTLINE - 68, 78, 88"
+            <button
+              onClick={() => {
+                navigate("/product/windows/SOFTLINE - 68, 78, 88");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>SOFTLINE - 68, 78, 88</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -359,12 +474,16 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link
-              to="/product/windows/DUOLINE - 68, 78, 88"
+            <button
+              onClick={() => {
+                navigate("/product/windows/DUOLINE - 68, 78, 88");
+                closeMenus(windowsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>DUOLINE - 68, 78, 88</span>
-            </Link>
+            </button>
           </li>
         </ul>
       </div>
@@ -393,19 +512,40 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Porte d'entrée en PVC</li>
 
           <li>
-            <Link to="/product/doors/Iglo Energy" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/doors/Iglo Energy");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>Iglo Energy</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/doors/Iglo 5" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/doors/Iglo 5");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>Iglo 5</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/doors/Iglo Edge" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/doors/Iglo Edge");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>Iglo Edge</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -413,47 +553,100 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Portes en aluminium</li>
 
           <li>
-            <Link to="/product/doors/D-ART Line" className="mobile-menu-item">
-              <span>D-ART Line</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/doors/MB-86N SI" className="mobile-menu-item">
-              <span>MB-86N SI</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/doors/MB-79N SI+" className="mobile-menu-item">
-              <span>MB-79N SI+</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/doors/MB-70HI" className="mobile-menu-item">
-              <span>MB-70HI</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/doors/MB-70" className="mobile-menu-item">
-              <span>MB-70</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/product/doors/MB-45" className="mobile-menu-item">
-              <span>MB-45</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/product/doors/MB-78EI Fire-Doors"
+            <button
+              onClick={() => {
+                navigate("/product/doors/D-ART Line");
+                closeMenus(doorsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
+            >
+              <span>D-ART Line</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-86N SI");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>MB-86N SI</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-79N SI+");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>MB-79N SI+</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-70HI");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>MB-70HI</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-70");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>MB-70</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-45");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
+              <span>MB-45</span>
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/doors/MB-78EI Fire-Doors");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
             >
               <span>MB-78EI Fire-Doors</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/product/doors/PIVOT" className="mobile-menu-item">
+            <button
+              onClick={() => {
+                navigate("/product/doors/PIVOT");
+                closeMenus(doorsMenuRef);
+              }}
+              className="mobile-menu-item"
+              type="button"
+            >
               <span>PIVOT</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -461,12 +654,16 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Porte d'entrée en bois</li>
 
           <li>
-            <Link
-              to="/product/doors/SOFTLINE 68, 78, 88"
+            <button
+              onClick={() => {
+                navigate("/product/doors/SOFTLINE 68, 78, 88");
+                closeMenus(doorsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>SOFTLINE 68, 78, 88</span>
-            </Link>
+            </button>
           </li>
         </ul>
       </div>
@@ -496,60 +693,88 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Levant coulissant HS</li>
 
           <li>
-            <Link
-              to="/product/terracesystems/IGLO-HS"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO-HS");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO-HS</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO-HS ALUCOVER"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO-HS ALUCOVER");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO-HS ALUCOVER</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-77HS HI"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-77HS HI");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-77HS HI</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-77HS HI MONORAIL"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-77HS HI MONORAIL");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-77HS HI MONORAIL</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-59HS HI"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-59HS HI");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-59HS HI</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/SOFTLINE HS"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/SOFTLINE HS");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>SOFTLINE HS</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/DUOLINE HS"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/DUOLINE HS");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>DUOLINE HS</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -557,64 +782,92 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Coulissant</li>
 
           <li>
-            <Link
-              to="/product/terracesystems/IGLO EDGE SLIDE"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO EDGE SLIDE");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO EDGE SLIDE</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO SLIDE"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO SLIDE");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO SLIDE</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-SLIDE"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-SLIDE");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-SLIDE</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/COR VISION"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/COR VISION");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>COR VISION</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/COR VISION PLUS"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/COR VISION PLUS");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>COR VISION PLUS</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
         <ul className="flex flex-col gap-4">
           <li className="mobile-menu-heading">Accordéon</li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-86 Fold Line HD"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-86 Fold Line HD");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-86 Fold Line HD</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/SOFTLINE 68"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/SOFTLINE 68");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>SOFTLINE 68</span>
-            </Link>
+            </button>
           </li>
         </ul>
 
@@ -622,68 +875,100 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Oscillo - coulissant PSK</li>
 
           <li>
-            <Link
-              to="/product/terracesystems/IGLO ENERGY PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO ENERGY PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO ENERGY PSK</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO ENERGY CLASSIC PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO ENERGY CLASSIC PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO ENERGY CLASSIC PSK</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO 5 PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO 5 PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO 5 PSK</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO 5 CLASSIC PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO 5 CLASSIC PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO 5 CLASSIC PSK</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/IGLO LIGHT PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/IGLO LIGHT PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>IGLO LIGHT PSK</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/terracesystems/MB-70 and MB-70HI PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/MB-70 and MB-70HI PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>MB-70/MB-70HI PSK</span>
-            </Link>
+            </button>
           </li>
-          <>
-            <Link
-              to="/product/terracesystems/Softline PSK"
+          <li>
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/Softline PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>Softline PSK</span>
-            </Link>
-          </>
+            </button>
+          </li>
           <li>
-            <Link
-              to="/product/terracesystems/DUOLINE PSK"
+            <button
+              onClick={() => {
+                navigate("/product/terracesystems/DUOLINE PSK");
+                closeMenus(terraceSystemsMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>DUOLINE PSK</span>
-            </Link>
+            </button>
           </li>
         </ul>
       </div>
@@ -713,32 +998,46 @@ const Navbar = () => {
           <li className="mobile-menu-heading">Rénovation</li>
 
           <li>
-            <Link
-              to="/product/shutters/Volets roulants en aluminium"
+            <button
+              onClick={() => {
+                navigate("/product/shutters/Volets roulants en aluminium");
+                closeMenus(shuttersMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>Volets roulants en aluminium</span>
-            </Link>
+            </button>
           </li>
         </ul>
         <ul className="flex flex-col gap-4">
           <li className="mobile-menu-heading">MONOBLOC</li>
 
           <li>
-            <Link
-              to="/product/shutters/Volets roulants en PVC"
+            <button
+              onClick={() => {
+                navigate("/product/shutters/Volets roulants en PVC");
+                closeMenus(shuttersMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>Volets roulants en PVC</span>
-            </Link>
+            </button>
           </li>
           <li>
-            <Link
-              to="/product/shutters/Volets roulants avec caisson en polystyrène"
+            <button
+              onClick={() => {
+                navigate(
+                  "/product/shutters/Volets roulants avec caisson en polystyrène"
+                );
+                closeMenus(shuttersMenuRef);
+              }}
               className="mobile-menu-item"
+              type="button"
             >
               <span>Volets roulants avec caisson en polystyrène</span>
-            </Link>
+            </button>
           </li>
         </ul>
       </div>

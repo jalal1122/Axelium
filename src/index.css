@@ -139,6 +139,9 @@
   }
 
 
+  .hero-specs-items{
+    @apply w-fit text-xl md:text-2xl lg:text-3xl font-bold border-2 border-yellow px-2 py-1 md:px-4 md:py-2 rounded-md;
+  }
 
   .custom-list {
     list-style: none; /* Remove default bullets */
