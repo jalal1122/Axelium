@@ -147,6 +147,7 @@ const Hero = ({ product }) => {
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Hero Content */}
