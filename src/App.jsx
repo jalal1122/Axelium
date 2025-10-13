@@ -2,6 +2,7 @@ import Router from "./router/router";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
