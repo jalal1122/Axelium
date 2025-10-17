@@ -2,10 +2,12 @@ import Router from "./router/router";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Toaster } from "react-hot-toast";
+import SEO from "./components/SEO";
 
 function App() {
   return (
     <>
+      <SEO title="Axelium Menuiseries" />
       <Navbar />
       <Router />
       <Footer />

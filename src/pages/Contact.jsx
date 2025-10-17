@@ -3,8 +3,11 @@ import heroImage from "../assets/Contact/heroImage.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
+import SEO from "../components/SEO";
+import { useLocation } from "react-router";
 
 const Contact = () => {
+  const location = useLocation();
   const form = useRef();
 
   const [isLoading, setIsLoading] = useState(false);
@@ -23,7 +26,7 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY // 🔹 Replace with your Public Key
       )
       .then(
-        (_result) => {
+        () => {
           setIsLoading(false);
           toast.dismiss(); // remove loading
           toast.success("✅ Email sent successfully!");
@@ -40,6 +43,11 @@ const Contact = () => {
 
   return (
     <section className="bg-gray-900 text-white">
+      <SEO
+        title="Contact | Axelium Menuiseries"
+        description="Contactez Axelium Menuiseries à Dunkerque: devis gratuit, conseils pour fenêtres, portes, coulissants et volets. Téléphone, email et localisation."
+        canonical={`https://axelium.eu${location.pathname}`}
+      />
       {/* Hero */}
       <div
         className="relative w-full h-[30vh] md:h-[40vh] flex justify-center items-center flex-col gap-3"

@@ -1,4 +1,5 @@
-import { useNavigate } from "react-router";
+import { useNavigate, useLocation } from "react-router";
+import SEO from "../components/SEO";
 import idealheroImg from "../assets/Products/Windows/IDEAL/hero.png";
 import p1 from "../assets/Products/Windows/IDEAL/p1.png";
 import p2 from "../assets/Products/Windows/IDEAL/p2.png";
@@ -9,6 +10,7 @@ import p6 from "../assets/Products/Windows/IDEAL/p6.png";
 
 const Ideal = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const products = [
     {
@@ -93,6 +95,11 @@ const Ideal = () => {
 
   return (
     <div className="flex flex-col">
+      <SEO
+        title="IDEAL | Lignes PVC | Axelium Menuiseries"
+        description="Découvrez la gamme IDEAL: IDEAL NEO AD, MD, MD-FS, Monoblock, Rénovation et 7000 NL. Performances thermiques et acoustiques de haut niveau."
+        canonical={`https://axelium.eu${location.pathname}`}
+      />
       <section
         className="relative w-full h-[50vh] flex flex-col gap-5 p-4 justify-center items-center"
         style={{
