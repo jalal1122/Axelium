@@ -6,11 +6,12 @@ const Detail = ({ product }) => {
   // Eagerly import common videos and images so Vite returns resolved URLs
   const videos = import.meta.glob("../../assets/**/*.{mp4,webm,ogg}", {
     eager: true,
-    as: "url",
+    query: "url",
+    import: "default",
   });
   const images = import.meta.glob(
     "../../assets/**/*.{png,jpg,jpeg,webp,avif}",
-    { eager: true, as: "url" }
+    { eager: true, query: "url", import: "default" }
   );
 
   const normalizeKey = (p) => `../../${p.replace(/^\.\//, "")}`;
