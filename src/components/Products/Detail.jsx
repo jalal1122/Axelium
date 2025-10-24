@@ -43,7 +43,7 @@ const Detail = ({ product }) => {
   const { src, type } = resolveMedia();
 
   return (
-    <section className="bg-[#F4F2F3] w-full flex flex-col md:flex-row justify-center items-center">
+    <section className="bg-[#F4F2F3] w-full flex flex-col md:flex-row justify-center items-center text-black">
       {/* Detail Info Section */}
       <div className="w-full md:w-1/2 h-full bg-white flex flex-col justify-center items-start gap-4 p-8">
         {/* title */}
